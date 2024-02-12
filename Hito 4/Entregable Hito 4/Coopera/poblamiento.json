@@ -1,0 +1,652 @@
+{
+    "socio1":
+    {
+        "id": 9,
+        "Nombre": "Ignacio",
+        "Paterno": "Cabrera",
+        "Materno": "Pizarro",
+        "Email": "ignaciocapi@gmail.com",
+        "Direccion": "Calle Roberto Matta 478",
+        "Fecha Inscripcion": "27/07/2022",
+        "Monto Inscripcion": "33311",
+        "Categoria": "Moroso",
+        "Residencia": "Quilpue",
+        "Tipo Socio": "Trabajador Independiente",
+        "Profesion": "Informatico",
+        "Creditos Solicitados": 
+            {
+                "Credito 1": 
+                    {
+                        "id": 1375,
+                        "Fecha": "12/03/2022",
+                        "Cuotas": 
+                            {
+                                "Cuota 1": 
+                                    {
+                                        "id": 1,
+                                        "Fecha Vencimiento" : "20/07/2022",
+                                        "Monto Cuota": 14285,
+                                        "Intereses": 5715,
+                                        "Monto a pagar": 20000,
+                                        "Estado Cuota": "Pagada",
+                                        "Fecha Pago" : "21/07/2022",
+                                        "Monto Pago" : 20300,
+                                        "Multa":   
+                                            {
+                                                "id": 3,
+                                                "Monto multa": 300
+                                            },
+                                        "Boleta": 
+                                            {
+                                                "id": 5,
+                                                "Fecha Pago": "21/07/2022",
+                                                "Monto Pagado": 20000,
+                                                "Interes Pagado": 300,
+                                                "Fecha Vencimiento": "21/08/2022"
+                                            }
+                                    },
+                                "Cuota 2": 
+                                    {
+                                        "id": 2,
+                                        "Fecha Vencimiento" : "20/07/2022",
+                                        "Monto Cuota": 14285,
+                                        "Intereses": 5715,
+                                        "Monto a pagar": 20000,
+                                        "Estado Cuota": "multada",
+                                        "Fecha Pago" : "",
+                                        "Monto Pago" : 0,
+                                        "Multa":   
+                                            {
+                                                "id": 6,
+                                                "Monto multa": 500
+                                            },
+                                        "Boleta": 
+                                            {
+
+                                            }
+                                    },
+                                "Cuota 3": 
+                                    {
+                                        "id": 3,
+                                        "Fecha Vencimiento" : "20/07/2022",
+                                        "Monto Cuota": 14285,
+                                        "Intereses": 5715,
+                                        "Monto a pagar": 20000,
+                                        "Estado Cuota": "multada",
+                                        "Fecha Pago" : "",
+                                        "Monto Pago" : 0,
+                                        "Multa":   
+                                            {
+                                                "id": 12,
+                                                "Monto multa": 450
+                                            },
+                                        "Boleta": 
+                                            {
+
+                                            }
+                                    },
+                                "Cuota 4": 
+                                    {
+                                        "id": 4,
+                                        "Fecha Vencimiento" : "20/07/2022",
+                                        "Monto Cuota": 14285,
+                                        "Intereses": 5715,
+                                        "Monto a pagar": 20000,
+                                        "Estado Cuota": "multada",
+                                        "Fecha Pago" : "",
+                                        "Monto Pago" : 0,
+                                        "Multa":   
+                                            {
+                                                "id": 15,
+                                                "Monto multa": 320
+                                            },
+                                        "Boleta": 
+                                            {
+
+                                            }
+                                    },
+                                "Cuota 5": 
+                                    {
+                                        "id": 5,
+                                        "Fecha Vencimiento" : "30/07/2022",
+                                        "Monto Cuota": 14285,
+                                        "Intereses": 5715,
+                                        "Monto a pagar": 20000,
+                                        "Estado Cuota": "pendiente",
+                                        "Fecha Pago" : "",
+                                        "Monto Pago" : 0,
+                                        "Multa":   
+                                            {
+
+                                            },
+                                        "Boleta": 
+                                            {
+
+                                            }
+                                    }
+                            },
+                        "Monto": 10250500,
+                        "Nombre Credito": "Credito Automotriz"
+                    }
+            }
+
+    },
+    "socio2":
+    {
+        "id": 10,
+        "Nombre": "Diego",
+        "Paterno": "Barriga",
+        "Materno": "Bustamante",
+        "Email": "diegobabu@gmail.com",
+        "Direccion": "Avenida Cierra Nevada 698",
+        "Fecha Inscripcion": "27/07/2022",
+        "Monto Inscripcion": "33311",
+        "Categoria": "Moroso",
+        "Residencia": "Valparaiso",
+        "Tipo Socio": "Pensionado",
+        "Profesion": "Electronico",
+        "Creditos Solicitados": 
+            {
+                "Credito 1": 
+                    {
+                        "id": 1625,
+                        "Fecha": "30/05/2022",
+                        "Cuotas": 
+                            {
+                                "Cuota 1": 
+                                    {
+                                        "id": 16,
+                                        "Fecha Vencimiento" : "25/07/2022",
+                                        "Monto Cuota": 20000,
+                                        "Intereses": 8000,
+                                        "Monto a pagar": 28000,
+                                        "Estado Cuota": "Pagada",
+                                        "Fecha Pago" : "21/07/2022",
+                                        "Monto Pago" : 28920,
+                                        "Multa":   
+                                            {
+                                                "id": 24,
+                                                "Monto multa": 920
+                                            },
+                                        "Boleta": 
+                                            {
+                                                "id": 20,
+                                                "Fecha Pago": "21/07/2022",
+                                                "Monto Pagado": 28000,
+                                                "Interes Pagado": 920,
+                                                "Fecha Vencimiento": "21/08/2022"
+                                            }
+                                    },
+                                "Cuota 2": 
+                                    {
+                                        "id": 17,
+                                        "Fecha Vencimiento" : "25/07/2022",
+                                        "Monto Cuota": 21430,
+                                        "Intereses": 8570,
+                                        "Monto a pagar": 30000,
+                                        "Estado Cuota": "Pagada",
+                                        "Fecha Pago" : "26/07/2022",
+                                        "Monto Pago" : 30100,
+                                        "Multa":   
+                                            {
+                                                "id": 30,
+                                                "Monto multa": 100
+                                            },
+                                        "Boleta": 
+                                            {
+                                                "id": 25,
+                                                "Fecha Pago": "26/07/2022",
+                                                "Monto Pagado": 30000,
+                                                "Interes Pagado": 100,
+                                                "Fecha Vencimiento": "26/08/2022"
+                                            }
+                                    },
+                                "Cuota 3": 
+                                    {
+                                        "id": 18,
+                                        "Fecha Vencimiento" : "30/07/2022",
+                                        "Monto Cuota": 22860,
+                                        "Intereses": 9140,
+                                        "Monto a pagar": 32000,
+                                        "Estado Cuota": "pendiente",
+                                        "Fecha Pago" : "",
+                                        "Monto Pago" : 0,
+                                        "Multa":   
+                                            {
+                                                
+                                            },
+                                        "Boleta": 
+                                            {
+                                                
+                                            }
+                                    },
+                                "Cuota 4": 
+                                    {
+                                        "id": 19,
+                                        "Fecha Vencimiento" : "30/07/2022",
+                                        "Monto Cuota": 24290,
+                                        "Intereses": 9710,
+                                        "Monto a pagar": 34000,
+                                        "Estado Cuota": "pendiente",
+                                        "Fecha Pago" : "",
+                                        "Monto Pago" : 0,
+                                        "Multa":   
+                                            {
+                                            },
+                                        "Boleta": 
+                                            {
+                                            }
+                                    },
+                                "Cuota 5": 
+                                    {
+                                        "id": 20,
+                                        "Fecha Vencimiento" : "30/07/2022",
+                                        "Monto Cuota": 25720,
+                                        "Intereses": 10280,
+                                        "Monto a pagar": 36000,
+                                        "Estado Cuota": "pendiente",
+                                        "Fecha Pago" : "",
+                                        "Monto Pago" : 0,
+                                        "Multa":   
+                                            {
+                                            },
+                                        "Boleta": 
+                                            {
+                                            }
+                                    }
+                            },
+                        "Monto": 6159000,
+                        "Nombre Credito": "Credito Automotriz"
+                    }
+            }
+
+    },
+    "socio3":
+    {
+        "id": 12,
+        "Nombre": "Lissandra",
+        "Paterno": "Di Marco",
+        "Materno": "Gonzales",
+        "Email": "lissandradigo@gmail.com",
+        "Direccion": "Avenida Balmaceda 555",
+        "Fecha Inscripcion": "27/07/2022",
+        "Monto Inscripcion": "33311",
+        "Categoria": "Moroso",
+        "Residencia": "Viña del Mar",
+        "Tipo Socio": "Pensionado",
+        "Profesion": "Astronomia",
+        "Creditos Solicitados": 
+            {
+                "Credito 1": 
+                    {
+                        "id": 3000,
+                        "Fecha": "26/10/2022",
+                        "Cuotas": 
+                            {
+                                "Cuota 1": 
+                                    {
+                                        "id": 11,
+                                        "Fecha Vencimiento" : "25/07/2022",
+                                        "Monto Cuota": 11110,
+                                        "Intereses": 8890,
+                                        "Monto a pagar": 20000,
+                                        "Estado Cuota": "Pagada",
+                                        "Fecha Pago" : "28/07/2022",
+                                        "Monto Pago" : 20670,
+                                        "Multa":   
+                                            {
+                                                "id": 21,
+                                                "Monto multa": 670
+                                            },
+                                        "Boleta": 
+                                            {
+                                                "id": 10,
+                                                "Fecha Pago": "28/07/2022",
+                                                "Monto Pagado": 20000,
+                                                "Interes Pagado": 670,
+                                                "Fecha Vencimiento": "28/08/2022"
+                                            }
+                                    },
+                                "Cuota 2": 
+                                    {
+                                        "id": 12,
+                                        "Fecha Vencimiento" : "25/07/2022",
+                                        "Monto Cuota": 13890,
+                                        "Intereses": 11110,
+                                        "Monto a pagar": 25000,
+                                        "Estado Cuota": "multada",
+                                        "Fecha Pago" : "",
+                                        "Monto Pago" : 0,
+                                        "Multa":   
+                                            {
+                                                "id": 27,
+                                                "Monto multa": 210
+                                            },
+                                        "Boleta": 
+                                            {
+                                            }
+                                    },
+                                "Cuota 3": 
+                                    {
+                                        "id": 13,
+                                        "Fecha Vencimiento" : "30/07/2022",
+                                        "Monto Cuota": 16670,
+                                        "Intereses": 13330,
+                                        "Monto a pagar": 30000,
+                                        "Estado Cuota": "pendiente",
+                                        "Fecha Pago" : "",
+                                        "Monto Pago" : 0,
+                                        "Multa":   
+                                            {
+                                            },
+                                        "Boleta": 
+                                            {
+                                            }
+                                    },
+                                "Cuota 4": 
+                                    {
+                                        "id": 14,
+                                        "Fecha Vencimiento" : "30/07/2022",
+                                        "Monto Cuota": 19440,
+                                        "Intereses": 15560,
+                                        "Monto a pagar": 35000,
+                                        "Estado Cuota": "pendiente",
+                                        "Fecha Pago" : "",
+                                        "Monto Pago" : 0,
+                                        "Multa":   
+                                            {
+                                            },
+                                        "Boleta": 
+                                            {
+                                            }
+                                    },
+                                "Cuota 5": 
+                                    {
+                                        "id": 15,
+                                        "Fecha Vencimiento" : "30/07/2022",
+                                        "Monto Cuota": 22220,
+                                        "Intereses": 17780,
+                                        "Monto a pagar": 40000,
+                                        "Estado Cuota": "pendiente",
+                                        "Fecha Pago" : "",
+                                        "Monto Pago" : 0,
+                                        "Multa":   
+                                            {
+                                            },
+                                        "Boleta": 
+                                            {
+                                            }
+                                    }
+                            },
+                        "Monto": 7485500,
+                        "Nombre Credito": "Credito por pago de arancel"
+                    }
+            }
+
+    },
+    "socio4":
+    {
+        "id": 23,
+        "Nombre": "Diego",
+        "Paterno": "Silva",
+        "Materno": "Flores",
+        "Email": "diegosifl@gmail.com",
+        "Direccion": "Pasaje Los Paltos 489",
+        "Fecha Inscripcion": "27/07/2022",
+        "Monto Inscripcion": "33311",
+        "Categoria": "Vigente",
+        "Residencia": "Quilpue",
+        "Tipo Socio": "Pensionado",
+        "Profesion": "Minero",
+        "Creditos Solicitados": 
+            {
+                "Credito 1": 
+                    {
+                        "id": 3500,
+                        "Fecha": "15/12/2022",
+                        "Cuotas": 
+                            {
+                                "Cuota 1": 
+                                    {
+                                        "id": 21,
+                                        "Fecha Vencimiento" : "25/07/2022",
+                                        "Monto Cuota": 11111,
+                                        "Intereses": 3889,
+                                        "Monto a pagar": 15000,
+                                        "Estado Cuota": "Pagada",
+                                        "Fecha Pago" : "21/07/2022",
+                                        "Monto Pago" : 15000,
+                                        "Multa":   
+                                            {
+                                            },
+                                        "Boleta": 
+                                            {
+                                                "id": 30,
+                                                "Fecha Pago": "21/07/2022",
+                                                "Monto Pagado": 15000,
+                                                "Interes Pagado": 0,
+                                                "Fecha Vencimiento": "21/08/2022"
+                                            }
+                                    },
+                               "Cuota 2": 
+                                    {
+                                        "id": 22,
+                                        "Fecha Vencimiento" : "25/07/2022",
+                                        "Monto Cuota": 34740,
+                                        "Intereses": 12160,
+                                        "Monto a pagar": 46900,
+                                        "Estado Cuota": "Pagada",
+                                        "Fecha Pago" : "21/07/2022",
+                                        "Monto Pago" : 46900,
+                                        "Multa":   
+                                            {
+                                            },
+                                        "Boleta": 
+                                            {
+                                                "id": 35,
+                                                "Fecha Pago": "21/07/2022",
+                                                "Monto Pagado": 46900,
+                                                "Interes Pagado": 0,
+                                                "Fecha Vencimiento": "21/08/2022"
+                                            }
+                                    },
+                                "Cuota 3": 
+                                    {
+                                        "id": 23,
+                                        "Fecha Vencimiento" : "25/07/2022",
+                                        "Monto Cuota": 43630,
+                                        "Intereses": 15270,
+                                        "Monto a pagar": 58900,
+                                        "Estado Cuota": "Pagada",
+                                        "Fecha Pago" : "21/07/2022",
+                                        "Monto Pago" : 58900,
+                                        "Multa":   
+                                            {
+                                            },
+                                        "Boleta": 
+                                            {
+                                                "id": 40,
+                                                "Fecha Pago": "21/07/2022",
+                                                "Monto Pagado": 58900,
+                                                "Interes Pagado": 0,
+                                                "Fecha Vencimiento": "21/08/2022"
+                                            }
+                                    },
+                                "Cuota 4": 
+                                    {
+                                        "id": 24,
+                                        "Fecha Vencimiento" : "25/07/2022",
+                                        "Monto Cuota": 46670,
+                                        "Intereses": 163301,
+                                        "Monto a pagar": 63000,
+                                        "Estado Cuota": "Pagada",
+                                        "Fecha Pago" : "21/07/2022",
+                                        "Monto Pago" : 63000,
+                                        "Multa":   
+                                            {
+                                            },
+                                        "Boleta": 
+                                            {
+                                                "id": 45,
+                                                "Fecha Pago": "21/07/2022",
+                                                "Monto Pagado": 63000,
+                                                "Interes Pagado": 0,
+                                                "Fecha Vencimiento": "21/08/2022"
+                                            }
+                                    },
+                                "Cuota 5": 
+                                    {
+                                        "id": 25,
+                                        "Fecha Vencimiento" : "25/07/2022",
+                                        "Monto Cuota": 58450,
+                                        "Intereses": 20450,
+                                        "Monto a pagar": 78900,
+                                        "Estado Cuota": "Pagada",
+                                        "Fecha Pago" : "21/07/2022",
+                                        "Monto Pago" : 78900,
+                                        "Multa":   
+                                            {
+                                            },
+                                        "Boleta": 
+                                            {
+                                                "id": 50,
+                                                "Fecha Pago": "21/07/2022",
+                                                "Monto Pagado": 78900,
+                                                "Interes Pagado": 0,
+                                                "Fecha Vencimiento": "21/08/2022"
+                                            }
+                                    }
+                            },
+                        "Monto": 9300000,
+                        "Nombre Credito": "Credito de Emergencia"
+                    }
+            }
+
+    },
+    "socio5":
+    {
+        "id": 24,
+        "Nombre": "Francisco",
+        "Paterno": "Sepulveda",
+        "Materno": "Munoz",
+        "Email": "franciscosemu@gmail.com",
+        "Direccion": "Calle uno 10",
+        "Fecha Inscripcion": "27/07/2022",
+        "Monto Inscripcion": "33311",
+        "Categoria": "Moroso",
+        "Residencia": "Viña del Mar",
+        "Tipo Socio": "Pensionado",
+        "Profesion": "Informatico",
+        "Creditos Solicitados": 
+            {
+                "Credito 1": 
+                    {
+                        "id": 3625,
+                        "Fecha": "16/12/2022",
+                        "Cuotas": 
+                            {
+                                "Cuota 1": 
+                                    {
+                                        "id": 6,
+                                        "Fecha Vencimiento" : "25/07/2022",
+                                        "Monto Cuota": 28000,
+                                        "Intereses": 7000,
+                                        "Monto a pagar": 35000,
+                                        "Estado Cuota": "Pagada",
+                                        "Fecha Pago" : "08/08/2022",
+                                        "Monto Pago" : 37190,
+                                        "Multa":   
+                                            {
+                                                "id": 9,
+                                                "Monto multa": 2190
+                                            },
+                                        "Boleta": 
+                                            {
+                                                "id": 15,
+                                                "Fecha Pago": "08/08/2022",
+                                                "Monto Pagado": 35000,
+                                                "Interes Pagado": 2190,
+                                                "Fecha Vencimiento": "08/09/2022"
+                                            }
+                                    },
+                                "Cuota 2": 
+                                    {
+                                        "id": 7,
+                                        "Fecha Vencimiento" : "25/07/2022",
+                                        "Monto Cuota": 32000,
+                                        "Intereses": 8000,
+                                        "Monto a pagar": 40000,
+                                        "Estado Cuota": "multada",
+                                        "Fecha Pago" : "",
+                                        "Monto Pago" : 0,
+                                        "Multa":   
+                                            {
+                                                "id": 18,
+                                                "Monto multa": 1500
+                                            },
+                                        "Boleta": 
+                                            {
+                                            }
+                                    },
+                                "Cuota 3": 
+                                    {
+                                        "id": 8,
+                                        "Fecha Vencimiento" : "30/07/2022",
+                                        "Monto Cuota": 36000,
+                                        "Intereses": 9000,
+                                        "Monto a pagar": 45000,
+                                        "Estado Cuota": "pendiente",
+                                        "Fecha Pago" : "",
+                                        "Monto Pago" : 0,
+                                        "Multa":   
+                                            {
+                                            },
+                                        "Boleta": 
+                                            {
+                                            }
+                                    },
+                                "Cuota 4": 
+                                    {
+                                        "id": 9,
+                                        "Fecha Vencimiento" : "30/07/2022",
+                                        "Monto Cuota": 40000,
+                                        "Intereses": 10000,
+                                        "Monto a pagar": 50000,
+                                        "Estado Cuota": "pendiente",
+                                        "Fecha Pago" : "",
+                                        "Monto Pago" : 0,
+                                        "Multa":   
+                                            {
+                                            },
+                                        "Boleta": 
+                                            {
+                                            }
+                                    },
+                                "Cuota 5": 
+                                    {
+                                        "id": 10,
+                                        "Fecha Vencimiento" : "30/07/2022",
+                                        "Monto Cuota": 44000,
+                                        "Intereses": 11000,
+                                        "Monto a pagar": 55000,
+                                        "Estado Cuota": "pendiente",
+                                        "Fecha Pago" : "",
+                                        "Monto Pago" : 0,
+                                        "Multa":   
+                                            {
+                                            },
+                                        "Boleta": 
+                                            {
+                                            }
+                                    }
+                            },
+                        "Monto": 3200000,
+                        "Nombre Credito": "Credito de Consumo"
+                    }
+            }
+
+    }
+
+}
+
+

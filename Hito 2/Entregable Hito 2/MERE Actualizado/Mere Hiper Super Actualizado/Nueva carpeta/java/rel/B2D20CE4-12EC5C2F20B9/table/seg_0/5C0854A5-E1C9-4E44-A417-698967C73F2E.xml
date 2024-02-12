@@ -1,0 +1,132 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5C0854A5-E1C9-4E44-A417-698967C73F2E" name="estado_de_cuenta">
+<createdBy>Maickol</createdBy>
+<createdTime>2022-07-05 00:52:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[Esta contiene informacion de la cuenta del socio]]></commentInRDBMS>
+<generatorID>17C12298-A8A6-22C7-DF5D-B2DC33D2B8D6</generatorID>
+<ownerDesignName>java</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_estado_cuenta" id="A5CF1F57-6AB3-42C3-9576-51A829C9BF69">
+<createdBy>Maickol</createdBy>
+<createdTime>2022-07-05 00:52:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[numero identificador de estado de cuenta]]></commentInRDBMS>
+<generatorID>3B6ECFBF-A602-F977-E87B-0AC591C1E70A</generatorID>
+<ownerDesignName>java</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>50</dataTypePrecision>
+<ownDataTypeParameters>,50,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="codigo_barra" id="92D88F39-C7DD-1307-5676-6F6BA3C1E6A8">
+<createdBy>Maickol</createdBy>
+<createdTime>2022-07-05 00:52:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[imagen del codigo de barra]]></commentInRDBMS>
+<generatorID>BEF1BF43-0241-6E97-5489-BF41E9E40879</generatorID>
+<ownerDesignName>java</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT010</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_estado_cuenta" id="6C6265F5-5991-3D16-B956-3EDE2AE8BEAE">
+<createdBy>Maickol</createdBy>
+<createdTime>2022-07-05 00:52:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[fecha de estado de cuenta,  [default = sysdate]]]></commentInRDBMS>
+<generatorID>4340D37E-387D-75A7-B535-C5BEB7BFBE5D</generatorID>
+<ownerDesignName>java</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<defaultValue>SYSDATE</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="socio_id_socio" id="7A7A5FEF-FE59-CF79-EED9-00E786DE664B">
+<createdBy>Maickol</createdBy>
+<createdTime>2022-07-05 00:52:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[socio posee un numero identificador que es el id (key)]]></commentInRDBMS>
+<generatorID>C91CB5E7-0F7B-2083-3D77-3886069CE2A2</generatorID>
+<ownerDesignName>java</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1005CB3B-DAB5-8970-B552-2EA9E5074EC7" referredColumn="CEDB27F1-1CA2-DBB2-DF47-B4A2561E04DE"/>
+</associations>
+</Column>
+<Column name="socio_Categoria_id_categoria" id="549BB983-4CDD-7CC1-695B-32FF3B49AC13">
+<createdBy>Maickol</createdBy>
+<createdTime>2022-07-05 00:52:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[numero identificador de la categoria]]></commentInRDBMS>
+<generatorID>6388CE7B-B4DE-9CF9-75F8-78FF2A4B2DAD</generatorID>
+<ownerDesignName>java</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1005CB3B-DAB5-8970-B552-2EA9E5074EC7" referredColumn="50B4B6F4-74E8-4BBA-93DB-89E323B944D6"/>
+</associations>
+</Column>
+<Column name="socio_id_profesion" id="D5A111D0-BB68-D379-A9BB-4B65A97B7E1B">
+<createdBy>Maickol</createdBy>
+<createdTime>2022-07-05 00:52:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[numero identificador de la profesion]]></commentInRDBMS>
+<generatorID>B9DBBCF4-84B8-B074-3870-B2C311DBCCF2</generatorID>
+<ownerDesignName>java</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1005CB3B-DAB5-8970-B552-2EA9E5074EC7" referredColumn="5663ED02-D576-F9FE-52B2-11581661777B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="312FB8F8-EBEC-A4EF-C35B-A650FD690127" name="estado_de_cuenta_PK">
+<createdBy>Maickol</createdBy>
+<createdTime>2022-07-05 00:52:37 UTC</createdTime>
+<generatorID>42FE051F-D504-6CB2-9910-EBC41C60235C</generatorID>
+<ownerDesignName>java</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A5CF1F57-6AB3-42C3-9576-51A829C9BF69"/>
+<colUsage columnID="7A7A5FEF-FE59-CF79-EED9-00E786DE664B"/>
+<colUsage columnID="549BB983-4CDD-7CC1-695B-32FF3B49AC13"/>
+<colUsage columnID="D5A111D0-BB68-D379-A9BB-4B65A97B7E1B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B3959612-A34A-7944-D74C-600B2926B261" name="estado_de_cuenta_socio_FK">
+<createdBy>Maickol</createdBy>
+<createdTime>2022-07-05 00:52:37 UTC</createdTime>
+<generatorID>924D4A8C-847B-5851-31E6-9AAB0EFB256D</generatorID>
+<ownerDesignName>java</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7A7A5FEF-FE59-CF79-EED9-00E786DE664B"/>
+<colUsage columnID="549BB983-4CDD-7CC1-695B-32FF3B49AC13"/>
+<colUsage columnID="D5A111D0-BB68-D379-A9BB-4B65A97B7E1B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

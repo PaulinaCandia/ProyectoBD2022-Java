@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="17C12298-A8A6-22C7-DF5D-B2DC33D2B8D6" name="estado de cuenta">
+<createdBy>megav</createdBy>
+<createdTime>2022-06-22 14:11:57 UTC</createdTime>
+<ownerDesignName>java</ownerDesignName>
+<engineerTo>
+<item key="B2D20CE4-8362-BD74-1529-12EC5C2F20B9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id estado cuenta" id="3B6ECFBF-A602-F977-E87B-0AC591C1E70A">
+<createdBy>usm</createdBy>
+<createdTime>2022-06-22 15:23:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[numero identificador de estado de cuenta]]></commentInRDBMS>
+<ownerDesignName>java</ownerDesignName>
+<engineerTo>
+<item key="B2D20CE4-8362-BD74-1529-12EC5C2F20B9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>50</dataTypePrecision>
+<ownDataTypeParameters>,50,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo barra" id="BEF1BF43-0241-6E97-5489-BF41E9E40879">
+<createdBy>usm</createdBy>
+<createdTime>2022-06-22 15:27:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[imagen del codigo de barra]]></commentInRDBMS>
+<ownerDesignName>java</ownerDesignName>
+<engineerTo>
+<item key="B2D20CE4-8362-BD74-1529-12EC5C2F20B9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT010</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha estado cuenta" id="4340D37E-387D-75A7-B535-C5BEB7BFBE5D">
+<createdBy>usm</createdBy>
+<createdTime>2022-06-22 15:25:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[fecha de estado de cuenta,  [default = sysdate]]]></commentInRDBMS>
+<ownerDesignName>java</ownerDesignName>
+<engineerTo>
+<item key="B2D20CE4-8362-BD74-1529-12EC5C2F20B9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<defaultValue>SYSDATE</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id socio" id="C91CB5E7-0F7B-2083-3D77-3886069CE2A2">
+<createdBy>usm</createdBy>
+<createdTime>2022-06-22 16:02:02 UTC</createdTime>
+<commentInRDBMS><![CDATA[socio posee un numero identificador que es el id (key)]]></commentInRDBMS>
+<generatorID>924D4A8C-847B-5851-31E6-9AAB0EFB256D</generatorID>
+<ownerDesignName>java</ownerDesignName>
+<engineerTo>
+<item key="B2D20CE4-8362-BD74-1529-12EC5C2F20B9" value="true"/>
+</engineerTo>
+<referedAttribute>9CCB9BEE-432A-52B0-CDC0-5753F53A2958</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Categoria id categoria" id="6388CE7B-B4DE-9CF9-75F8-78FF2A4B2DAD">
+<createdBy>Tino</createdBy>
+<createdTime>2022-06-29 16:04:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[numero identificador de la categoria]]></commentInRDBMS>
+<generatorID>924D4A8C-847B-5851-31E6-9AAB0EFB256D</generatorID>
+<ownerDesignName>java</ownerDesignName>
+<engineerTo>
+<item key="B2D20CE4-8362-BD74-1529-12EC5C2F20B9" value="true"/>
+</engineerTo>
+<referedAttribute>DFEDDAF1-EB4C-D54A-B235-816F77F57B72</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id profesion" id="B9DBBCF4-84B8-B074-3870-B2C311DBCCF2">
+<createdBy>usm</createdBy>
+<createdTime>2022-06-30 14:07:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[numero identificador de la profesion]]></commentInRDBMS>
+<generatorID>924D4A8C-847B-5851-31E6-9AAB0EFB256D</generatorID>
+<ownerDesignName>java</ownerDesignName>
+<engineerTo>
+<item key="B2D20CE4-8362-BD74-1529-12EC5C2F20B9" value="true"/>
+</engineerTo>
+<referedAttribute>7AD28CE2-2C3F-B976-DB51-18E29DB9387C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="42FE051F-D504-6CB2-9910-EBC41C60235C" name="estado de cuenta PK">
+<createdBy>usm</createdBy>
+<createdTime>2022-06-22 15:25:43 UTC</createdTime>
+<ownerDesignName>java</ownerDesignName>
+<engineerTo>
+<item key="B2D20CE4-8362-BD74-1529-12EC5C2F20B9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3B6ECFBF-A602-F977-E87B-0AC591C1E70A</attributeRef>
+<attributeRef>C91CB5E7-0F7B-2083-3D77-3886069CE2A2</attributeRef>
+<attributeRef>6388CE7B-B4DE-9CF9-75F8-78FF2A4B2DAD</attributeRef>
+<attributeRef>B9DBBCF4-84B8-B074-3870-B2C311DBCCF2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="credito solicitado socio FK" directorySegmentName="seg_0" id="BAC94760-FB47-66AE-8F73-1B92E7935BE4">
+<createdBy>megav</createdBy>
+<createdTime>2022-06-22 14:17:18 UTC</createdTime>
+<ownerDesignName>java</ownerDesignName>
+<engineerTo>
+<item key="B2714910-8A69-8730-F72F-226D5B113D74" value="true"/>
+</engineerTo>
+<sourcePk>B604D964-8777-FD85-586B-AFB5E71C9ADF</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6563DE3C-59FB-95B3-4A18-8A41CC07DE87</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E657419F-D73B-0010-1D5C-1712AE6509A2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

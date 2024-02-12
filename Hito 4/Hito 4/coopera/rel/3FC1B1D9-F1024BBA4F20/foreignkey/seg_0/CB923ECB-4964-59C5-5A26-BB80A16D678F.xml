@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CB923ECB-4964-59C5-5A26-BB80A16D678F" containerWithKeyObject="CFF4F2FC-7195-2FB1-E759-DBF3561BB6F4" localFKIndex="7B90D0D0-C3FC-E0B1-4E58-60767F2518A3" name="cuotas_multas_FK">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-26 12:46:47 UTC</createdTime>
+<generatorID>40265A13-789B-435F-BAAF-AD4429587D79</generatorID>
+<ownerDesignName>coopera</ownerDesignName>
+<referredTableLongName>multas</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>07176392-6BBA-86BC-8178-2F1825E5777B</referredTableID>
+<keyObject>537B8AF4-DBE1-5E4A-F3BC-BEA6597ACACC</keyObject>
+<referredKeyID>537B8AF4-DBE1-5E4A-F3BC-BEA6597ACACC</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_multa</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

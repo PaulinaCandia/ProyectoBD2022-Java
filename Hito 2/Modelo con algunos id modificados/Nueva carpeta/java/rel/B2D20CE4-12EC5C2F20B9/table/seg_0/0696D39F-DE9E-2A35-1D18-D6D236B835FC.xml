@@ -1,0 +1,224 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0696D39F-DE9E-2A35-1D18-D6D236B835FC" name="socio">
+<createdBy>Maickol</createdBy>
+<createdTime>2022-07-05 00:52:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[Tabla que almacena la informacion de los socios]]></commentInRDBMS>
+<generatorID>6563DE3C-59FB-95B3-4A18-8A41CC07DE87</generatorID>
+<ownerDesignName>java</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_socio" id="CEDB27F1-1CA2-DBB2-DF47-B4A2561E04DE">
+<createdBy>Maickol</createdBy>
+<createdTime>2022-07-05 00:52:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[socio posee un numero identificador que es el id (key)]]></commentInRDBMS>
+<generatorID>9CCB9BEE-432A-52B0-CDC0-5753F53A2958</generatorID>
+<ownerDesignName>java</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="85BECBB1-783B-4478-5BCA-DAA3295DF063">
+<createdBy>Maickol</createdBy>
+<createdTime>2022-07-05 00:52:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[primer nombre del socio]]></commentInRDBMS>
+<generatorID>2B6A71E9-5445-A825-E78D-1DFDF3DE5435</generatorID>
+<ownerDesignName>java</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ap_paterno" id="86EDE99A-5960-57FD-DFD1-38A0C1858AA7">
+<createdBy>Maickol</createdBy>
+<createdTime>2022-07-05 00:52:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[apellido paterno del socio]]></commentInRDBMS>
+<generatorID>88F21754-C06B-2F36-AA77-DCD575B31E3B</generatorID>
+<ownerDesignName>java</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ap_materno" id="B1193408-1543-01EE-0F16-3315FB43DAAA">
+<createdBy>Maickol</createdBy>
+<createdTime>2022-07-05 00:52:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[apellido materno del socio]]></commentInRDBMS>
+<generatorID>89050EFB-8324-8FB0-A648-7FC133D71788</generatorID>
+<ownerDesignName>java</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="e-mail" id="03E20A7B-8827-96AD-84C9-4DCA071209E1">
+<createdBy>Maickol</createdBy>
+<createdTime>2022-07-05 00:52:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[correo electronico del socio]]></commentInRDBMS>
+<generatorID>92FF0CB9-52A9-3278-EE03-7D6C05DF45D8</generatorID>
+<ownerDesignName>java</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion" id="0447F8AA-7111-98D7-FC38-A792468AE743">
+<createdBy>Maickol</createdBy>
+<createdTime>2022-07-05 00:52:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[direccion del socio]]></commentInRDBMS>
+<generatorID>681781B4-8173-A940-F3E5-F606010CD222</generatorID>
+<ownerDesignName>java</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cuidad" id="BF92E824-EA3E-104C-DE1B-B46962161CBD">
+<createdBy>Maickol</createdBy>
+<createdTime>2022-07-05 00:52:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[ciudad del socio]]></commentInRDBMS>
+<generatorID>C3890B50-967D-4E26-71E4-EB34D7347F3A</generatorID>
+<ownerDesignName>java</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="region" id="D39717EA-455C-26AB-036A-9249FB6BCB08">
+<createdBy>Maickol</createdBy>
+<createdTime>2022-07-05 00:52:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[region del socio]]></commentInRDBMS>
+<generatorID>A6A83B5C-EA91-4216-320E-A230D68F86D1</generatorID>
+<ownerDesignName>java</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_inscripcion" id="F46A28C7-AF9B-4712-BFA4-6EA14F91BE2D">
+<createdBy>Maickol</createdBy>
+<createdTime>2022-07-05 00:52:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[fecha en la que se inscribió el socio,  [default = sysdate]]]></commentInRDBMS>
+<generatorID>0FA70468-0E35-28AC-7A09-AAA7BD51B209</generatorID>
+<ownerDesignName>java</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<defaultValue>SYSDATE</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="aporte_inscripcion" id="3A237F0A-8E69-89EF-0B0F-E8E454A693A2">
+<createdBy>Maickol</createdBy>
+<createdTime>2022-07-05 00:52:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[es el monto que el socio paga al inscribirse]]></commentInRDBMS>
+<generatorID>1558E257-78FD-25C5-DE6B-F57687ADC3F2</generatorID>
+<ownerDesignName>java</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_categoria" id="50B4B6F4-74E8-4BBA-93DB-89E323B944D6">
+<createdBy>Maickol</createdBy>
+<createdTime>2022-07-05 00:52:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[numero identificador de la categoria]]></commentInRDBMS>
+<generatorID>DFEDDAF1-EB4C-D54A-B235-816F77F57B72</generatorID>
+<ownerDesignName>java</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4CB75625-E8E0-A9BC-A334-996C0C5A09E5" referredColumn="2BF9C8D5-4870-67D8-8F09-0E7E84504FD6"/>
+</associations>
+</Column>
+<Column name="id_profesion" id="5663ED02-D576-F9FE-52B2-11581661777B">
+<createdBy>Maickol</createdBy>
+<createdTime>2022-07-05 00:52:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[numero identificador de la profesion]]></commentInRDBMS>
+<generatorID>7AD28CE2-2C3F-B976-DB51-18E29DB9387C</generatorID>
+<ownerDesignName>java</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ACF10835-194A-388B-AD57-2973577FB8B4" referredColumn="DFFC25A5-F81A-7D3C-6002-8AFE22B786A3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E4B16D3D-0DA0-9A5E-BE99-E1AC3142EFCF" name="socio_PK">
+<createdBy>Maickol</createdBy>
+<createdTime>2022-07-05 00:52:37 UTC</createdTime>
+<generatorID>B604D964-8777-FD85-586B-AFB5E71C9ADF</generatorID>
+<ownerDesignName>java</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CEDB27F1-1CA2-DBB2-DF47-B4A2561E04DE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8DD3CA21-3323-C442-68DB-08D67333BFB9" name="socio__IDX">
+<createdBy>Maickol</createdBy>
+<createdTime>2022-07-05 00:52:37 UTC</createdTime>
+<ownerDesignName>java</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>4B7E3CE9-CFCC-0CF2-1C7B-4E7F037DAAFB</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="50B4B6F4-74E8-4BBA-93DB-89E323B944D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="777AFD10-A826-9A20-6B5E-8812ACE46B05" name="socio_Categoria_FK">
+<createdBy>Maickol</createdBy>
+<createdTime>2022-07-05 00:52:37 UTC</createdTime>
+<generatorID>4B7E3CE9-CFCC-0CF2-1C7B-4E7F037DAAFB</generatorID>
+<ownerDesignName>java</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="50B4B6F4-74E8-4BBA-93DB-89E323B944D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AAB709B6-7303-2120-FF14-5DEAFF6006CA" name="socio_profesiones_FK">
+<createdBy>Maickol</createdBy>
+<createdTime>2022-07-05 00:52:37 UTC</createdTime>
+<generatorID>7BBFADD7-D056-25FD-E1C1-AD70140975EF</generatorID>
+<ownerDesignName>java</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5663ED02-D576-F9FE-52B2-11581661777B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

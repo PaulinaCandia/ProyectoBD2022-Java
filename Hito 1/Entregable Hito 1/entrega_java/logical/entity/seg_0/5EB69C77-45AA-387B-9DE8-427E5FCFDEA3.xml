@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5EB69C77-45AA-387B-9DE8-427E5FCFDEA3" name="dependiente">
+<createdBy>megav</createdBy>
+<createdTime>2022-06-22 14:11:11 UTC</createdTime>
+<ownerDesignName>entrega_java</ownerDesignName>
+<engineerTo>
+<item key="E8D0E68D-A113-098B-6740-4D34B80665D1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>6563DE3C-59FB-95B3-4A18-8A41CC07DE87</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nombre_institucion" id="75FF8513-EE9B-BF44-453F-8C59F8117EB5">
+<createdBy>usm</createdBy>
+<createdTime>2022-06-22 15:14:21 UTC</createdTime>
+<ownerDesignName>entrega_java</ownerDesignName>
+<engineerTo>
+<item key="E8D0E68D-A113-098B-6740-4D34B80665D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="antiguedad_laboral" id="106ED30E-D4C5-3FA6-6E15-D47BFB997CE1">
+<createdBy>usm</createdBy>
+<createdTime>2022-06-22 15:14:59 UTC</createdTime>
+<ownerDesignName>entrega_java</ownerDesignName>
+<engineerTo>
+<item key="E8D0E68D-A113-098B-6740-4D34B80665D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="prom_sueldo_mensual" id="1BB46CB7-D1B3-56CB-8D54-191929AF29D8">
+<createdBy>usm</createdBy>
+<createdTime>2022-06-22 15:15:52 UTC</createdTime>
+<ownerDesignName>entrega_java</ownerDesignName>
+<engineerTo>
+<item key="E8D0E68D-A113-098B-6740-4D34B80665D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="338ADBED-083B-E74B-590B-70ED89F21660" name="dependiente PK">
+<createdBy>usm</createdBy>
+<createdTime>2022-06-22 15:15:13 UTC</createdTime>
+<ownerDesignName>entrega_java</ownerDesignName>
+<engineerTo>
+<item key="E8D0E68D-A113-098B-6740-4D34B80665D1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+</identifier>
+</identifiers>
+</Entity>

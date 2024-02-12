@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C09F4700-F985-A768-1596-27742CE0D9E1" name="cupones_de_pagos">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-20 15:06:57 UTC</createdTime>
+<generatorID>F4C2FAAE-53B2-E2E7-3AA7-285B345356C1</generatorID>
+<ownerDesignName>asd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_cupon" id="E3C4AE94-1AC1-7C89-844D-4CBFD37023E1">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-20 15:06:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[numero identificador del cupon]]></commentInRDBMS>
+<generatorID>B16CC229-F7A2-5504-CA3B-7E224D00925D</generatorID>
+<ownerDesignName>asd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="monto_pagado" id="DDEB09E5-71CA-9A8C-1D0F-A5D47564C981">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-20 15:06:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[monto pagado del cupon]]></commentInRDBMS>
+<generatorID>15C9626D-0139-87CA-6EAD-D1583429223B</generatorID>
+<ownerDesignName>asd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_pago" id="1F1FB691-AD64-F10D-C927-9F63FD19BE91">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-20 15:06:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[fecha de pago del cupon,  [default = sysdate]]]></commentInRDBMS>
+<generatorID>AB50E821-F8D6-478D-E9FD-467AD5D631E8</generatorID>
+<ownerDesignName>asd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<defaultValue>SYSDATE</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="B4D62F44-F31E-9DB7-4EF4-62BB0BCE8ADF">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-20 15:06:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[nombre del cupon]]></commentInRDBMS>
+<generatorID>8C21EFFD-33E1-17CF-C1C6-85E5A64FF9EC</generatorID>
+<ownerDesignName>asd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5BBF5861-DF1C-8648-ADCD-DFE28006C918" name="cupones_de_pagos_PK">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-20 15:06:57 UTC</createdTime>
+<generatorID>D490D62C-3F2C-99C5-A715-DC30AEE69757</generatorID>
+<ownerDesignName>asd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E3C4AE94-1AC1-7C89-844D-4CBFD37023E1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

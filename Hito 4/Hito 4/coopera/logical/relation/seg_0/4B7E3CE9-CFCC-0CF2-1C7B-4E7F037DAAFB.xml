@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="socios Categorias FK" directorySegmentName="seg_0" id="4B7E3CE9-CFCC-0CF2-1C7B-4E7F037DAAFB">
+<createdBy>Tino</createdBy>
+<createdTime>2022-06-29 16:04:28 UTC</createdTime>
+<ownerDesignName>coopera</ownerDesignName>
+<engineerTo>
+<item key="3FC1B1D9-F748-9D00-F663-F1024BBA4F20" value="true"/>
+</engineerTo>
+<targetPk>93B9D9DB-0973-8255-C661-F04A0DAD2F87</targetPk>
+<dominantRole>C38B3F87-21E4-CE97-6B22-97E0EBF80542</dominantRole>
+<identifying>false</identifying>
+<nameOnSource>asociados</nameOnSource>
+<nameOnTarget>tienen</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6563DE3C-59FB-95B3-4A18-8A41CC07DE87</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>C38B3F87-21E4-CE97-6B22-97E0EBF80542</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

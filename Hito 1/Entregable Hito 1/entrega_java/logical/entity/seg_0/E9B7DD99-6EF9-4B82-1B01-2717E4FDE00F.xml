@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E9B7DD99-6EF9-4B82-1B01-2717E4FDE00F" name="credito">
+<createdBy>megav</createdBy>
+<createdTime>2022-06-22 14:15:01 UTC</createdTime>
+<ownerDesignName>entrega_java</ownerDesignName>
+<engineerTo>
+<item key="E8D0E68D-A113-098B-6740-4D34B80665D1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_credito" id="2D8A6807-B004-D75B-A4E1-E2B9A216BCE8">
+<createdBy>megav</createdBy>
+<createdTime>2022-06-22 14:37:16 UTC</createdTime>
+<ownerDesignName>entrega_java</ownerDesignName>
+<engineerTo>
+<item key="E8D0E68D-A113-098B-6740-4D34B80665D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="D11FE239-BFB6-72A3-E1A0-D1EC307AFD39">
+<createdBy>megav</createdBy>
+<createdTime>2022-06-22 14:37:26 UTC</createdTime>
+<ownerDesignName>entrega_java</ownerDesignName>
+<engineerTo>
+<item key="E8D0E68D-A113-098B-6740-4D34B80665D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion" id="5252F5CB-CCA0-9709-ACC2-B271AAF51B73">
+<createdBy>megav</createdBy>
+<createdTime>2022-06-22 14:37:46 UTC</createdTime>
+<ownerDesignName>entrega_java</ownerDesignName>
+<engineerTo>
+<item key="E8D0E68D-A113-098B-6740-4D34B80665D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tasa_interes" id="A8631110-823B-3A76-ACC1-4F438A0B904A">
+<createdBy>megav</createdBy>
+<createdTime>2022-06-22 14:38:22 UTC</createdTime>
+<ownerDesignName>entrega_java</ownerDesignName>
+<engineerTo>
+<item key="E8D0E68D-A113-098B-6740-4D34B80665D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cuotas_max" id="2914E9B2-B8EE-C70D-5AA2-25733FCBDBDF">
+<createdBy>megav</createdBy>
+<createdTime>2022-06-22 14:38:39 UTC</createdTime>
+<ownerDesignName>entrega_java</ownerDesignName>
+<engineerTo>
+<item key="E8D0E68D-A113-098B-6740-4D34B80665D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1E76E309-E1B3-BAE4-CFD0-B03588A24F0B" name=" PK">
+<createdBy>megav</createdBy>
+<createdTime>2022-06-22 14:37:24 UTC</createdTime>
+<ownerDesignName>entrega_java</ownerDesignName>
+<engineerTo>
+<item key="E8D0E68D-A113-098B-6740-4D34B80665D1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2D8A6807-B004-D75B-A4E1-E2B9A216BCE8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

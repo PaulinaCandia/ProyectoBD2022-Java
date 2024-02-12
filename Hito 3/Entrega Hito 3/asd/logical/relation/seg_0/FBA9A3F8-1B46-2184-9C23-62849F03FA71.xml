@@ -1,0 +1,23 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="creditos_solicitados_creditos_FK" directorySegmentName="seg_0" id="FBA9A3F8-1B46-2184-9C23-62849F03FA71">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-20 15:13:30 UTC</createdTime>
+<generatorID>3A33420F-DF06-471F-1891-F1E3974EDE2E</generatorID>
+<ownerDesignName>asd</ownerDesignName>
+<engineerTo>
+<item key="37569E07-38FA-94AA-D2FB-6E60E55FD775" value="true"/>
+<item key="B0B9F2DA-289E-B181-965A-BBE7B50D3602" value="true"/>
+</engineerTo>
+<sourcePk>1E76E309-E1B3-BAE4-CFD0-B03588A24F0B</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>contiene</nameOnSource>
+<nameOnTarget>compone</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E9B7DD99-6EF9-4B82-1B01-2717E4FDE00F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E657419F-D73B-0010-1D5C-1712AE6509A2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

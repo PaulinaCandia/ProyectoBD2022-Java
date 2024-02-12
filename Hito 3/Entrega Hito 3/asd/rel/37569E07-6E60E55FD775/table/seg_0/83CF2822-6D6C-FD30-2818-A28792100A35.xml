@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="83CF2822-6D6C-FD30-2818-A28792100A35" name="aportes">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-20 15:22:18 UTC</createdTime>
+<generatorID>DD3BB013-07CC-B74C-E94F-56413709B2E9</generatorID>
+<ownerDesignName>asd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_aporte" id="893AAD18-2F0B-00C7-9CD4-51AF5CCB7DCE">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-20 15:22:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[numero identificador del aporte]]></commentInRDBMS>
+<generatorID>7AD105F6-DADA-839D-736E-AF88CB636352</generatorID>
+<ownerDesignName>asd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="30707C03-5814-0250-3E1C-5F5157DF45DC">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-20 15:22:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[nombre del aporte]]></commentInRDBMS>
+<generatorID>59F055EC-D3D2-0845-0BD6-C3004E34C9AC</generatorID>
+<ownerDesignName>asd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="BE03C24B-8092-2556-1E78-9D00E55EA462">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-20 15:22:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[descripcion del aporte]]></commentInRDBMS>
+<generatorID>5672DD0E-AF0C-FE7C-8644-2D9DE42B3B1D</generatorID>
+<ownerDesignName>asd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tasa_interes" id="0F4BA504-81BC-7969-8834-EA5424FC82E8">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-20 15:22:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[porcentaje de la tasa de interes]]></commentInRDBMS>
+<generatorID>8DFE7A9A-0D72-9F3A-548F-172370963CCA</generatorID>
+<ownerDesignName>asd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rescate_max" id="0009D81F-9CCD-9D20-BC1E-28DA34B5AB13">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-20 15:22:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[porcentaje del rescate maximo]]></commentInRDBMS>
+<generatorID>9F5FAB62-F28D-FC76-BD3B-C4B63AF5D211</generatorID>
+<ownerDesignName>asd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5461DD6C-38D1-AC85-B8DD-DD0192D2763B" name="aportes_PK">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-20 15:22:18 UTC</createdTime>
+<generatorID>98F5DCCA-CF2B-C4CF-A318-92CBCCE25921</generatorID>
+<ownerDesignName>asd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="893AAD18-2F0B-00C7-9CD4-51AF5CCB7DCE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

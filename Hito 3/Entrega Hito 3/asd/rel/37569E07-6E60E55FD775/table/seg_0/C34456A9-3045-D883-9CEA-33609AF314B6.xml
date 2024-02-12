@@ -1,0 +1,237 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C34456A9-3045-D883-9CEA-33609AF314B6" name="cuotas">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-20 15:22:18 UTC</createdTime>
+<generatorID>5095DB6F-1607-A32C-A10D-BB4FA0EDF0FE</generatorID>
+<ownerDesignName>asd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_cuota" id="1F090087-BA86-DB80-D9E8-E42810B48802">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-20 15:22:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[numero identificador de la cuota]]></commentInRDBMS>
+<generatorID>AB2AE879-0CEE-98E6-B9EB-1556BD74188A</generatorID>
+<ownerDesignName>asd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_vencimiento" id="8BF02AA6-05D6-D949-AC4B-3DCA5865723C">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-20 15:22:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[fecha de vencimiento de la cuota]]></commentInRDBMS>
+<generatorID>39F16D9A-3A80-1AEA-096C-4023F6E89262</generatorID>
+<ownerDesignName>asd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="monto_cuota" id="7A74F9B0-E41A-8FA9-8A3D-89FA452636E4">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-20 15:22:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[cantidad del monto de la cuota]]></commentInRDBMS>
+<generatorID>064F429F-A2D4-A0A7-2A1B-771300BE3F56</generatorID>
+<ownerDesignName>asd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="interes" id="9716467A-B969-D920-ED13-78A00CBB71EA">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-20 15:22:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[monto de interes de la cuota]]></commentInRDBMS>
+<generatorID>ABD2B4C2-0A00-9482-F620-78C219514D3A</generatorID>
+<ownerDesignName>asd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="monto_a_pagar" id="17EE5A92-5EFC-E78F-3CBD-D873A9A7738C">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-20 15:22:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[monto a pagar de la cuota]]></commentInRDBMS>
+<generatorID>F6CED310-7D0C-75E2-E440-BAC25892ACED</generatorID>
+<ownerDesignName>asd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Estado_cuota" id="16AFDC49-D4B6-246D-D91C-51EF5BFF298F">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-20 15:22:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[pagada, pendiente y multada]]></commentInRDBMS>
+<generatorID>6A3F18F2-7E01-D103-D4B7-4E60AB0CF120</generatorID>
+<ownerDesignName>asd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha_pago" id="E2A53AF4-1E83-D708-4A1E-0621D3045598">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-20 15:22:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[fecha en la que se pago,  [default = sysdate]]]></commentInRDBMS>
+<generatorID>6A931A95-3140-7DEC-EA1D-1F61CD70450E</generatorID>
+<ownerDesignName>asd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<defaultValue>SYSDATE</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="monto_pago" id="636FD365-469D-454A-3A64-9901C87DE223">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-20 15:22:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[monto pagado]]></commentInRDBMS>
+<generatorID>013A84FB-08EF-9DA9-793D-3A5D0A4128D9</generatorID>
+<ownerDesignName>asd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_boleta" id="5CA757C3-C3B4-5290-BB43-44869355B78D">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-20 15:22:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[numero identificador de boleta]]></commentInRDBMS>
+<generatorID>9619F4CE-244D-EA8C-6E33-D37BB161E14B</generatorID>
+<ownerDesignName>asd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="435C6A72-AB17-7B00-5DAE-ECB93E44AE81" referredColumn="32C0C4EE-EC80-BF10-0501-335F8C0F99B5"/>
+</associations>
+</Column>
+<Column name="id_multa" id="F9B64DA8-9BD4-DB2F-E1C0-FAA09314D82D">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-20 15:22:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[numero identificador de la multa]]></commentInRDBMS>
+<generatorID>7FFF1E10-6DF6-35D9-3A2A-770226700608</generatorID>
+<ownerDesignName>asd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7A3F8EE2-814C-F61E-8FAF-39FE17AA543A" referredColumn="5F8C466C-F9A3-79E3-5943-EBAB119B1B79"/>
+</associations>
+</Column>
+<Column name="id_credito_solicitado" id="B3F7D593-598F-77A2-4520-5AC7C4A0015C">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-20 15:22:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[numero identificador del credito solicitado]]></commentInRDBMS>
+<generatorID>C8520C68-5AB5-33BB-4654-34CE18E5A432</generatorID>
+<ownerDesignName>asd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BC8EBC5C-8BA3-3A3B-C48F-7A7B60746AD3" referredColumn="C681AFFC-4381-4DC0-58C0-917DFAD393CC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A12210A0-0399-9DB5-FBAE-7E6DBB285FA8" name="cuotas_PK">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-20 15:22:18 UTC</createdTime>
+<generatorID>D0EBB83C-C869-AFE2-86E1-334CF001FE33</generatorID>
+<ownerDesignName>asd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1F090087-BA86-DB80-D9E8-E42810B48802"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2C02A938-6481-73A8-B55D-544BE40070B4" name="cuotas__IDX">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-20 15:22:18 UTC</createdTime>
+<ownerDesignName>asd</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>12783672-BA54-5CA7-B41B-F07DC6904D10</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="5CA757C3-C3B4-5290-BB43-44869355B78D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E4C5D885-A26A-355B-9495-8872822BC397" name="cuotas__IDXv1">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-20 15:22:18 UTC</createdTime>
+<ownerDesignName>asd</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>40265A13-789B-435F-BAAF-AD4429587D79</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="F9B64DA8-9BD4-DB2F-E1C0-FAA09314D82D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7CD39834-A560-79A7-F87F-192815600576" name="cuotas_boletas_FK">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-20 15:22:18 UTC</createdTime>
+<generatorID>12783672-BA54-5CA7-B41B-F07DC6904D10</generatorID>
+<ownerDesignName>asd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5CA757C3-C3B4-5290-BB43-44869355B78D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B9754D87-9BE2-D26F-57B6-DCA142DD164A" name="cuotas_creditos_solicitados_FK">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-20 15:22:18 UTC</createdTime>
+<generatorID>FDF6797C-2775-E724-A57A-FC9696522D96</generatorID>
+<ownerDesignName>asd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B3F7D593-598F-77A2-4520-5AC7C4A0015C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="88DA86F6-1EDE-82D4-5A32-0380F84DE5DD" name="cuotas_multas_FK">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-20 15:22:18 UTC</createdTime>
+<generatorID>40265A13-789B-435F-BAAF-AD4429587D79</generatorID>
+<ownerDesignName>asd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F9B64DA8-9BD4-DB2F-E1C0-FAA09314D82D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

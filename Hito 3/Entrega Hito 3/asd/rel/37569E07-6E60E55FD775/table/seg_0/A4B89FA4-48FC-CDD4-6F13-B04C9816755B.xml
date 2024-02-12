@@ -1,0 +1,134 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A4B89FA4-48FC-CDD4-6F13-B04C9816755B" name="creditos_solicitados">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-20 15:22:18 UTC</createdTime>
+<generatorID>E657419F-D73B-0010-1D5C-1712AE6509A2</generatorID>
+<ownerDesignName>asd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_credito_solicitado" id="C681AFFC-4381-4DC0-58C0-917DFAD393CC">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-20 15:22:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[numero identificador del credito solicitado]]></commentInRDBMS>
+<generatorID>2BCECDA9-02B0-38D4-A8F5-DABC0EEB73F3</generatorID>
+<ownerDesignName>asd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_solicitud" id="644FB6A0-D73F-29B6-153B-9E5C42755B46">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-20 15:22:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[fecha de la solicitud del credito,  [default = sysdate]]]></commentInRDBMS>
+<generatorID>63037B51-6EB4-0EC4-2881-EA4311F7D4E9</generatorID>
+<ownerDesignName>asd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<defaultValue>SYSDATE</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cant_cuotas" id="EAFFB17A-FDE6-B3A8-30AF-3BADBCD37BE5">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-20 15:22:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[la cantidad de cuotas]]></commentInRDBMS>
+<generatorID>3A1BF266-949E-F35B-E594-D1D884FF58EB</generatorID>
+<ownerDesignName>asd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="monto_solicitado" id="37523439-CA19-072C-D5F4-B9C62837BDFB">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-20 15:22:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[la cantidad del monto solicitado]]></commentInRDBMS>
+<generatorID>5605063A-A216-2E14-5103-813C4FCCF941</generatorID>
+<ownerDesignName>asd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_socio" id="4895C3D6-D66C-E83A-0681-9D5DD98F69E2">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-20 15:22:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[socio posee un numero identificador que es el id (key)]]></commentInRDBMS>
+<generatorID>B32ACC16-3B62-3D2E-A200-31AC1B3A56D6</generatorID>
+<ownerDesignName>asd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="33790F9A-A2BA-591C-8240-841F5F272EEB" referredColumn="33953EE1-5F43-D675-0C9F-B117C8A87230"/>
+</associations>
+</Column>
+<Column name="id_credito" id="CDE5C152-FCD3-8EC8-5204-F403BDA6DCA8">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-20 15:22:18 UTC</createdTime>
+<generatorID>413D227B-6A05-53E5-8D2B-C395FBEB2492</generatorID>
+<ownerDesignName>asd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5942E031-7320-77AB-7F24-3D5444A0CEEF" referredColumn="1AC02000-F380-6D87-091F-D113CC97D068"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B8A42111-4027-F6F4-DB55-9114065930DF" name="creditos_solicitados_PK">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-20 15:22:18 UTC</createdTime>
+<generatorID>F13A0DE8-0986-FD11-602C-8F65B9DBBEC8</generatorID>
+<ownerDesignName>asd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C681AFFC-4381-4DC0-58C0-917DFAD393CC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A1F0ACEE-F357-412A-E225-FA4D70C47194" name="creditos_FK">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-20 15:22:18 UTC</createdTime>
+<generatorID>FBA9A3F8-1B46-2184-9C23-62849F03FA71</generatorID>
+<ownerDesignName>asd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CDE5C152-FCD3-8EC8-5204-F403BDA6DCA8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="615B08F4-3CA0-156F-6A6B-3BC14CCC066E" name="socios_FK">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-20 15:22:18 UTC</createdTime>
+<generatorID>BAC94760-FB47-66AE-8F73-1B92E7935BE4</generatorID>
+<ownerDesignName>asd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4895C3D6-D66C-E83A-0681-9D5DD98F69E2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

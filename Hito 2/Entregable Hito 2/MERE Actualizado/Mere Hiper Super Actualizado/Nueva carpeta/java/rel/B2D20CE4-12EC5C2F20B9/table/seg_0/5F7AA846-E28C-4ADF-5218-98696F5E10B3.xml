@@ -1,0 +1,186 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5F7AA846-E28C-4ADF-5218-98696F5E10B3" name="aportes_solicitados">
+<createdBy>Maickol</createdBy>
+<createdTime>2022-07-05 00:52:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[Informacion respectiva de los aportes  solicitados por el socio]]></commentInRDBMS>
+<generatorID>7AE081FB-1E3B-20B9-EB7A-17AA9BB11D5D</generatorID>
+<ownerDesignName>java</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="meses_tomados" id="C273D39F-2DD9-8C83-0654-CABF88165C2B">
+<createdBy>Maickol</createdBy>
+<createdTime>2022-07-05 00:52:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[cantidad de meses tomados]]></commentInRDBMS>
+<generatorID>200CC46F-0B99-45B2-DDC8-0F18B25F4BDB</generatorID>
+<ownerDesignName>java</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="socio_id_socio" id="943C40A1-FD71-30F7-5DFE-4A426DE40701">
+<createdBy>Maickol</createdBy>
+<createdTime>2022-07-05 00:52:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[socio posee un numero identificador que es el id (key)]]></commentInRDBMS>
+<generatorID>0D85E270-1D4D-D96F-8EA5-BF4761A9F08C</generatorID>
+<ownerDesignName>java</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="04A19BDA-7AFA-80ED-07A8-3E7CB7C2BFC4" referredColumn="CEDB27F1-1CA2-DBB2-DF47-B4A2561E04DE"/>
+</associations>
+</Column>
+<Column name="cupon_pago_id_cupon" id="F798135B-C014-6127-AFF0-18C081A6533C">
+<createdBy>Maickol</createdBy>
+<createdTime>2022-07-05 00:52:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[numero identificador del cupon]]></commentInRDBMS>
+<generatorID>A32CEAAE-E5A7-2BA2-49AD-80A093DE495B</generatorID>
+<ownerDesignName>java</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="38AEE13B-886E-45B5-4BCD-FA50CFB3891C" referredColumn="47EAADB8-1597-2117-5D25-457BFA4978D4"/>
+</associations>
+</Column>
+<Column name="aportes_id_aporte" id="A7545B37-9966-C3C2-C9F4-0A5A6025BB7A">
+<createdBy>Maickol</createdBy>
+<createdTime>2022-07-05 00:52:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[numero identificador del aporte]]></commentInRDBMS>
+<generatorID>C1997902-665B-411B-8F0E-92092BAB7056</generatorID>
+<ownerDesignName>java</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="619836B8-F123-B18B-CC12-DC67D6269272" referredColumn="509331C2-C127-C3D8-B83E-18888FEBB739"/>
+</associations>
+</Column>
+<Column name="socio_Categoria_id_categoria" id="54753FF3-F4EF-857D-6543-5E8F5B77B670">
+<createdBy>Maickol</createdBy>
+<createdTime>2022-07-05 00:52:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[numero identificador de la categoria]]></commentInRDBMS>
+<generatorID>78A61A2C-FEC0-AADF-E38A-FF1E5EF09E98</generatorID>
+<ownerDesignName>java</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="04A19BDA-7AFA-80ED-07A8-3E7CB7C2BFC4" referredColumn="50B4B6F4-74E8-4BBA-93DB-89E323B944D6"/>
+</associations>
+</Column>
+<Column name="socio_id_profesion" id="A6EF433B-7D36-21C1-777B-862FF436E4D2">
+<createdBy>Maickol</createdBy>
+<createdTime>2022-07-05 00:52:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[numero identificador de la profesion]]></commentInRDBMS>
+<generatorID>D10F9089-8964-8999-D69A-B2C2A4DA96BA</generatorID>
+<ownerDesignName>java</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="04A19BDA-7AFA-80ED-07A8-3E7CB7C2BFC4" referredColumn="5663ED02-D576-F9FE-52B2-11581661777B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B9587FE3-F37A-CAEF-D55B-8C970ED498CB" name="aportes_solicitados_PK">
+<createdBy>Maickol</createdBy>
+<createdTime>2022-07-05 00:52:37 UTC</createdTime>
+<generatorID>EB232BE6-A5C4-9D15-BD42-AA171BB6EA48</generatorID>
+<ownerDesignName>java</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A7545B37-9966-C3C2-C9F4-0A5A6025BB7A"/>
+<colUsage columnID="943C40A1-FD71-30F7-5DFE-4A426DE40701"/>
+<colUsage columnID="54753FF3-F4EF-857D-6543-5E8F5B77B670"/>
+<colUsage columnID="A6EF433B-7D36-21C1-777B-862FF436E4D2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="948A170F-BB1D-E951-C2AF-D6B12C94E203" name="aportes_solicitados__IDX">
+<createdBy>Maickol</createdBy>
+<createdTime>2022-07-05 00:52:37 UTC</createdTime>
+<ownerDesignName>java</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>7DCB81CE-02F2-E744-1D4C-9DB61F2D5243</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="A7545B37-9966-C3C2-C9F4-0A5A6025BB7A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FC9D0617-4821-B867-F428-E763BF739546" name="aportes_solicitados__IDXv1">
+<createdBy>Maickol</createdBy>
+<createdTime>2022-07-05 00:52:37 UTC</createdTime>
+<ownerDesignName>java</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>6C275530-3759-32CF-E389-20F47F1A5369</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="F798135B-C014-6127-AFF0-18C081A6533C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7D869481-E5FF-8A30-9501-B2AA04B3C91A" name="aportes_solicitados_aportes_FK">
+<createdBy>Maickol</createdBy>
+<createdTime>2022-07-05 00:52:37 UTC</createdTime>
+<generatorID>7DCB81CE-02F2-E744-1D4C-9DB61F2D5243</generatorID>
+<ownerDesignName>java</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A7545B37-9966-C3C2-C9F4-0A5A6025BB7A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="882B13E3-3FB9-DA8D-C5B8-69401EF67D98" name="aportes_solicitados_cupon_pago_FK">
+<createdBy>Maickol</createdBy>
+<createdTime>2022-07-05 00:52:37 UTC</createdTime>
+<generatorID>6C275530-3759-32CF-E389-20F47F1A5369</generatorID>
+<ownerDesignName>java</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F798135B-C014-6127-AFF0-18C081A6533C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E20557EE-3CAB-A68A-0BB0-BF9C32B6A3D7" name="aportes_solicitados_socio_FK">
+<createdBy>Maickol</createdBy>
+<createdTime>2022-07-05 00:52:37 UTC</createdTime>
+<generatorID>7B0AF6D2-1CFB-7A2C-8698-20684F7B8FCC</generatorID>
+<ownerDesignName>java</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="943C40A1-FD71-30F7-5DFE-4A426DE40701"/>
+<colUsage columnID="54753FF3-F4EF-857D-6543-5E8F5B77B670"/>
+<colUsage columnID="A6EF433B-7D36-21C1-777B-862FF436E4D2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

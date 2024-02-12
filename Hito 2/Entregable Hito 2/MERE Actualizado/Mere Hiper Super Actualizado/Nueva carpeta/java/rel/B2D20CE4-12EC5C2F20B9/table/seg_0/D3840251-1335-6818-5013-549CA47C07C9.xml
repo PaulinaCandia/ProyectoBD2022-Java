@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D3840251-1335-6818-5013-549CA47C07C9" name="Categoria">
+<createdBy>Maickol</createdBy>
+<createdTime>2022-07-05 00:52:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[Esta contienen los tipos de cliente]]></commentInRDBMS>
+<generatorID>C38B3F87-21E4-CE97-6B22-97E0EBF80542</generatorID>
+<ownerDesignName>java</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_categoria" id="2BF9C8D5-4870-67D8-8F09-0E7E84504FD6">
+<createdBy>Maickol</createdBy>
+<createdTime>2022-07-05 00:52:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[numero identificador de la categoria]]></commentInRDBMS>
+<generatorID>658A41BB-3771-C9B0-F453-5BB007C85702</generatorID>
+<ownerDesignName>java</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_cliente" id="6FF76E2C-8D1A-F8EB-7BC4-1FECE9523B7F">
+<createdBy>Maickol</createdBy>
+<createdTime>2022-07-05 00:52:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[el cliente puede ser nuevo, vigente o moroso]]></commentInRDBMS>
+<generatorID>58A6482E-4F53-9311-863B-387967775C2D</generatorID>
+<ownerDesignName>java</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3F1F5407-C458-554A-51D7-7D0F108AF187" name="Categoria_PK">
+<createdBy>Maickol</createdBy>
+<createdTime>2022-07-05 00:52:37 UTC</createdTime>
+<generatorID>93B9D9DB-0973-8255-C661-F04A0DAD2F87</generatorID>
+<ownerDesignName>java</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2BF9C8D5-4870-67D8-8F09-0E7E84504FD6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

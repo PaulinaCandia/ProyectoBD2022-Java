@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C8F61B40-0EA1-8FF0-68C1-A6D92AB5C38F" name="cuotas pagadas">
+<createdBy>megav</createdBy>
+<createdTime>2022-06-22 14:13:41 UTC</createdTime>
+<ownerDesignName>entrega_java</ownerDesignName>
+<engineerTo>
+<item key="E8D0E68D-A113-098B-6740-4D34B80665D1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="fecha_a_pagar" id="DAD67952-9B3B-B92F-5BE6-10DC3EF41D12">
+<createdBy>usm</createdBy>
+<createdTime>2022-06-22 15:57:09 UTC</createdTime>
+<ownerDesignName>entrega_java</ownerDesignName>
+<engineerTo>
+<item key="E8D0E68D-A113-098B-6740-4D34B80665D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="monto_a_pagar" id="84B1376E-8160-966C-FD6C-A4DB75FBCE79">
+<createdBy>usm</createdBy>
+<createdTime>2022-06-22 16:26:28 UTC</createdTime>
+<ownerDesignName>entrega_java</ownerDesignName>
+<engineerTo>
+<item key="E8D0E68D-A113-098B-6740-4D34B80665D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_pago" id="6631DB94-1D4F-C2AB-04B4-E1B5BAC97751">
+<createdBy>usm</createdBy>
+<createdTime>2022-06-22 16:34:02 UTC</createdTime>
+<generatorID>8152809E-E76D-0E17-3846-4DC7CACB9461</generatorID>
+<ownerDesignName>entrega_java</ownerDesignName>
+<engineerTo>
+<item key="E8D0E68D-A113-098B-6740-4D34B80665D1" value="true"/>
+</engineerTo>
+<referedAttribute>9BDC9274-E75B-A65E-0AE6-A9E66522C010</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_cuota" id="833034AB-98B1-DFC8-0A1C-811B5B87CBEA">
+<createdBy>usm</createdBy>
+<createdTime>2022-06-22 16:35:09 UTC</createdTime>
+<generatorID>9E290EA6-753F-0BA2-FB9F-BD21E3F294DE</generatorID>
+<ownerDesignName>entrega_java</ownerDesignName>
+<engineerTo>
+<item key="E8D0E68D-A113-098B-6740-4D34B80665D1" value="true"/>
+</engineerTo>
+<referedAttribute>AB2AE879-0CEE-98E6-B9EB-1556BD74188A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_multa1" id="E0F35277-6897-BA03-7EFA-896967DE9AF3">
+<createdBy>usm</createdBy>
+<createdTime>2022-06-22 17:02:35 UTC</createdTime>
+<generatorID>9E290EA6-753F-0BA2-FB9F-BD21E3F294DE</generatorID>
+<ownerDesignName>entrega_java</ownerDesignName>
+<engineerTo>
+<item key="E8D0E68D-A113-098B-6740-4D34B80665D1" value="true"/>
+</engineerTo>
+<referedAttribute>FEBE02DF-E110-883C-C742-AAE73EBA3F3A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0D7DE3CA-B130-EFF1-EDD5-41FCC154BF88" name="cuotas pagadas PK">
+<createdBy>usm</createdBy>
+<createdTime>2022-06-22 16:22:35 UTC</createdTime>
+<ownerDesignName>entrega_java</ownerDesignName>
+<engineerTo>
+<item key="E8D0E68D-A113-098B-6740-4D34B80665D1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6631DB94-1D4F-C2AB-04B4-E1B5BAC97751</attributeRef>
+<attributeRef>833034AB-98B1-DFC8-0A1C-811B5B87CBEA</attributeRef>
+<attributeRef>E0F35277-6897-BA03-7EFA-896967DE9AF3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

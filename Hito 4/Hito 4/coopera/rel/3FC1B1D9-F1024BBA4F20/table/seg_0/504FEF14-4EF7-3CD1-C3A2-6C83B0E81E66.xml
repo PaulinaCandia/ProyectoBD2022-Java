@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="504FEF14-4EF7-3CD1-C3A2-6C83B0E81E66" name="UF">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-26 12:46:47 UTC</createdTime>
+<generatorID>2EEC7D03-7906-DDA6-7057-F433BFC871D7</generatorID>
+<ownerDesignName>coopera</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="mes" id="AB3D0BFC-B62F-C726-5289-8373AB745FFB">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-26 12:46:47 UTC</createdTime>
+<generatorID>7D3D02E4-AC5B-86A0-E184-77A833A19C23</generatorID>
+<ownerDesignName>coopera</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dia" id="06A49856-DAB1-CB5C-06AB-30F4071F67C8">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-26 12:46:47 UTC</createdTime>
+<generatorID>DB60DA33-BD34-51E1-F175-AD19066B38C0</generatorID>
+<ownerDesignName>coopera</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="monto_UF" id="A85F1BEB-B78C-4EC6-0C03-0758E8130904">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-26 12:46:47 UTC</createdTime>
+<generatorID>A8932078-6A0D-AD5B-DBEF-01E69837790E</generatorID>
+<ownerDesignName>coopera</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

@@ -1,0 +1,19 @@
+I. Cuotas pagadas
+II. Credito - Credito Solicitado - Cuotas - Multas
+III. Socio - Credito - Credito Solicitado - Cuotas - Cuotas Pagadas
+IV. Socio - Credito Solicitado - Cuotas (Crear Tabla categorias (Donde se identifique si un cliente es nuevo, vigente, moroso))
+V. Socio - Credito - Credito Solicitado - Cuotas - Cuotas Pagadas - Multas
+VI. Categoria - Socio
+VII. Socio (Aporte inscripcion)
+VIII. Socio - Aporte Solicitado - Aporte
+IX. Socio - Credito Solicitado - Credito - Cuotas
+
+
+Script Creacion Usuario
+
+-- USER SQL
+CREATE USER alumno IDENTIFIED BY alum123;
+-- ROLES
+GRANT "CONNECT" TO postulante ;
+GRANT "RESOURCE" TO postulante ;
+

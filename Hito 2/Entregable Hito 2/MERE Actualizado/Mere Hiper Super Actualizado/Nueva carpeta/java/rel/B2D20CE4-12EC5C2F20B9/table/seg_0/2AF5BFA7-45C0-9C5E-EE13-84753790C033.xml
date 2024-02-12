@@ -1,0 +1,175 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2AF5BFA7-45C0-9C5E-EE13-84753790C033" name="credito_solicitado">
+<createdBy>Maickol</createdBy>
+<createdTime>2022-07-05 00:52:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[Informacion respectiva de los creditos solicitados por el socio]]></commentInRDBMS>
+<generatorID>E657419F-D73B-0010-1D5C-1712AE6509A2</generatorID>
+<ownerDesignName>java</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_credito_solicitado" id="1BD6E527-D4A7-A711-8DA8-9BF1EEDA5C99">
+<createdBy>Maickol</createdBy>
+<createdTime>2022-07-05 00:52:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[numero identificador del credito solicitado]]></commentInRDBMS>
+<generatorID>2BCECDA9-02B0-38D4-A8F5-DABC0EEB73F3</generatorID>
+<ownerDesignName>java</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_solicitud" id="73467AFE-03C1-8538-1E54-9718E5620D8F">
+<createdBy>Maickol</createdBy>
+<createdTime>2022-07-05 00:52:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[fecha de la solicitud del credito,  [default = sysdate]]]></commentInRDBMS>
+<generatorID>63037B51-6EB4-0EC4-2881-EA4311F7D4E9</generatorID>
+<ownerDesignName>java</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<defaultValue>SYSDATE</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cant_cuotas" id="FEF8DA38-5C86-F394-CC72-4AE82ECEE871">
+<createdBy>Maickol</createdBy>
+<createdTime>2022-07-05 00:52:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[la cantidad de cuotas]]></commentInRDBMS>
+<generatorID>3A1BF266-949E-F35B-E594-D1D884FF58EB</generatorID>
+<ownerDesignName>java</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="monto_solicitado" id="AA273973-D59A-9B0B-84AD-6CA7F9CCC1C9">
+<createdBy>Maickol</createdBy>
+<createdTime>2022-07-05 00:52:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[la cantidad del monto solicitado]]></commentInRDBMS>
+<generatorID>5605063A-A216-2E14-5103-813C4FCCF941</generatorID>
+<ownerDesignName>java</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="socio_id_socio" id="A33CB781-B431-D585-3728-14F40435FA81">
+<createdBy>Maickol</createdBy>
+<createdTime>2022-07-05 00:52:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[socio posee un numero identificador que es el id (key)]]></commentInRDBMS>
+<generatorID>B32ACC16-3B62-3D2E-A200-31AC1B3A56D6</generatorID>
+<ownerDesignName>java</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C80D572C-9D1D-4949-66C3-B5E5849E885C" referredColumn="CEDB27F1-1CA2-DBB2-DF47-B4A2561E04DE"/>
+</associations>
+</Column>
+<Column name="socio_Categoria_id_categoria" id="E62BC4CF-9AB5-8ACF-DAC3-CBD53F31F0B7">
+<createdBy>Maickol</createdBy>
+<createdTime>2022-07-05 00:52:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[numero identificador de la categoria]]></commentInRDBMS>
+<generatorID>9327D4DA-A6F9-A0E4-B554-11FA042B62E8</generatorID>
+<ownerDesignName>java</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C80D572C-9D1D-4949-66C3-B5E5849E885C" referredColumn="50B4B6F4-74E8-4BBA-93DB-89E323B944D6"/>
+</associations>
+</Column>
+<Column name="credito_id_credito" id="D06B8D65-F5D5-1704-307F-476A498A21BA">
+<createdBy>Maickol</createdBy>
+<createdTime>2022-07-05 00:52:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[numero identificador del credito]]></commentInRDBMS>
+<generatorID>D2AC1F40-32D5-CF62-1A25-DD02BEE271FC</generatorID>
+<ownerDesignName>java</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="52B3AA2D-2B43-DA40-5E4F-24BD5792D8B2" referredColumn="60E70E1C-8E0B-F7F9-E135-FDF79C8967CF"/>
+</associations>
+</Column>
+<Column name="socio_id_profesion" id="D67EA07B-E4CA-EFE1-BDBF-0D27633660CE">
+<createdBy>Maickol</createdBy>
+<createdTime>2022-07-05 00:52:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[numero identificador de la profesion]]></commentInRDBMS>
+<generatorID>0D103B9B-6186-B92E-D504-090437B05411</generatorID>
+<ownerDesignName>java</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C80D572C-9D1D-4949-66C3-B5E5849E885C" referredColumn="5663ED02-D576-F9FE-52B2-11581661777B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0A30E190-A571-7EE5-33C5-1CEA017A29F8" name="credito_solicitado_PK">
+<createdBy>Maickol</createdBy>
+<createdTime>2022-07-05 00:52:37 UTC</createdTime>
+<generatorID>F13A0DE8-0986-FD11-602C-8F65B9DBBEC8</generatorID>
+<ownerDesignName>java</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1BD6E527-D4A7-A711-8DA8-9BF1EEDA5C99"/>
+<colUsage columnID="D06B8D65-F5D5-1704-307F-476A498A21BA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DDA71EEE-7715-37BE-8F49-9F445536D3D4" name="credito_solicitado_credito_FK">
+<createdBy>Maickol</createdBy>
+<createdTime>2022-07-05 00:52:37 UTC</createdTime>
+<generatorID>7A3121B2-3CC0-02AB-9306-27C16816BA0D</generatorID>
+<ownerDesignName>java</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D06B8D65-F5D5-1704-307F-476A498A21BA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5CB9D95C-DE8A-B222-78F6-D657A8509F84" name="credito_solicitado_socio_FK">
+<createdBy>Maickol</createdBy>
+<createdTime>2022-07-05 00:52:37 UTC</createdTime>
+<generatorID>BAC94760-FB47-66AE-8F73-1B92E7935BE4</generatorID>
+<ownerDesignName>java</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A33CB781-B431-D585-3728-14F40435FA81"/>
+<colUsage columnID="E62BC4CF-9AB5-8ACF-DAC3-CBD53F31F0B7"/>
+<colUsage columnID="D67EA07B-E4CA-EFE1-BDBF-0D27633660CE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B5E14DB5-DAB5-385B-A8C4-20E55B8EE64E" name="tipo_de_socios">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-20 15:06:57 UTC</createdTime>
+<generatorID>5D902EE9-79AA-4F13-1404-E8B74563FE29</generatorID>
+<ownerDesignName>asd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_tipo" id="DAB7A1BC-2792-97AB-1CA5-053B16DEC8E1">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-20 15:06:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[id primario de tipo de socio]]></commentInRDBMS>
+<generatorID>6CC1C1E4-6238-B315-E730-CB66F44F5091</generatorID>
+<ownerDesignName>asd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_tipo" id="61159C8E-4E2C-2C55-3809-D24912208F19">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-20 15:06:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[pensionado, independiente o dependiente]]></commentInRDBMS>
+<generatorID>E8EDEB51-130B-A0C5-2EC4-0D1219BF5493</generatorID>
+<ownerDesignName>asd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5A5351F3-4D1B-D1E2-D62A-2A3BF65BE634" name="tipo_de_socios_PK">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-20 15:06:57 UTC</createdTime>
+<generatorID>E55351D5-7975-28C6-17A3-5A705C5CF5C0</generatorID>
+<ownerDesignName>asd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DAB7A1BC-2792-97AB-1CA5-053B16DEC8E1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

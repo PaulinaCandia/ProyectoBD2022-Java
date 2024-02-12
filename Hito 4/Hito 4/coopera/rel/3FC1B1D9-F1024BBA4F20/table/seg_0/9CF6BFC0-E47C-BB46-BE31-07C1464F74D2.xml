@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9CF6BFC0-E47C-BB46-BE31-07C1464F74D2" name="estado_de_cuentas">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-26 12:46:47 UTC</createdTime>
+<generatorID>17C12298-A8A6-22C7-DF5D-B2DC33D2B8D6</generatorID>
+<ownerDesignName>coopera</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_estado_cuenta" id="A1C1FAA8-BA24-E8CC-FA25-367AC82F0B03">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-26 12:46:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[numero identificador de estado de cuenta]]></commentInRDBMS>
+<generatorID>3B6ECFBF-A602-F977-E87B-0AC591C1E70A</generatorID>
+<ownerDesignName>coopera</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>50</dataTypePrecision>
+<ownDataTypeParameters>,50,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="codigo_barra" id="77ACF4CF-A5FC-4CB0-0496-00E29FD06BD9">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-26 12:46:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[imagen del codigo de barra]]></commentInRDBMS>
+<generatorID>BEF1BF43-0241-6E97-5489-BF41E9E40879</generatorID>
+<ownerDesignName>coopera</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT010</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_estado_cuenta" id="CED827A0-3D6B-4C97-93DD-7625D75B77A1">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-26 12:46:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[fecha de estado de cuenta,  [default = sysdate]]]></commentInRDBMS>
+<generatorID>4340D37E-387D-75A7-B535-C5BEB7BFBE5D</generatorID>
+<ownerDesignName>coopera</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<defaultValue>SYSDATE</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_socio" id="743B91F6-1E6E-51B3-0FEB-66C732A464FB">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-26 12:46:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[socio posee un numero identificador que es el id (key)]]></commentInRDBMS>
+<generatorID>C91CB5E7-0F7B-2083-3D77-3886069CE2A2</generatorID>
+<ownerDesignName>coopera</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="498EB22D-A8E6-6FF9-3985-DAEA06AA0547" referredColumn="864F6719-82BE-08F4-6E43-A9B03E52A782"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5B237D57-BB57-0E92-4923-ECE5CDBCB7FA" name="estado_de_cuentas_PK">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-26 12:46:47 UTC</createdTime>
+<generatorID>42FE051F-D504-6CB2-9910-EBC41C60235C</generatorID>
+<ownerDesignName>coopera</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A1C1FAA8-BA24-E8CC-FA25-367AC82F0B03"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9A3C52B5-D984-BDD1-C761-47A29A2ACF7D" name="estado_de_cuentas_socios_FK">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-26 12:46:47 UTC</createdTime>
+<generatorID>924D4A8C-847B-5851-31E6-9AAB0EFB256D</generatorID>
+<ownerDesignName>coopera</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="743B91F6-1E6E-51B3-0FEB-66C732A464FB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F7A4E7A7-815C-FC69-C690-ED6EDBE1FE5D" name="profesiones">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-26 12:46:47 UTC</createdTime>
+<generatorID>C8520412-6393-5E07-D037-F34EE30989DF</generatorID>
+<ownerDesignName>coopera</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_profesion" id="CD41BCB2-6CC8-2810-A7CA-47A693A558AD">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-26 12:46:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[numero identificador de la profesion]]></commentInRDBMS>
+<generatorID>5B5BF452-C4E1-2104-4861-FB3F27BC3FB9</generatorID>
+<ownerDesignName>coopera</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_profesion" id="A11694EC-C054-67C7-A14E-4FA68C22D219">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-26 12:46:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[nombre de la profesion]]></commentInRDBMS>
+<generatorID>A7BE2850-1B07-BA57-7BC8-1E31328E0B22</generatorID>
+<ownerDesignName>coopera</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="46B60C80-D705-721A-1606-298E735A7F42" name="profesiones_PK">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-26 12:46:47 UTC</createdTime>
+<generatorID>07775CFF-5F28-66DB-EC9F-6E4237C4A5AF</generatorID>
+<ownerDesignName>coopera</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CD41BCB2-6CC8-2810-A7CA-47A693A558AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

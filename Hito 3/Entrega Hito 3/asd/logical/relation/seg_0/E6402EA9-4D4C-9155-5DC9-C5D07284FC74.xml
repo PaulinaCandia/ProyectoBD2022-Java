@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="socios tipo de socios FK" directorySegmentName="seg_0" id="E6402EA9-4D4C-9155-5DC9-C5D07284FC74">
+<createdBy>nicos</createdBy>
+<createdTime>2022-07-14 20:00:19 UTC</createdTime>
+<ownerDesignName>asd</ownerDesignName>
+<engineerTo>
+<item key="37569E07-38FA-94AA-D2FB-6E60E55FD775" value="true"/>
+<item key="B0B9F2DA-289E-B181-965A-BBE7B50D3602" value="true"/>
+</engineerTo>
+<sourcePk>E55351D5-7975-28C6-17A3-5A705C5CF5C0</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>tienen</nameOnSource>
+<nameOnTarget>definen</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5D902EE9-79AA-4F13-1404-E8B74563FE29</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6563DE3C-59FB-95B3-4A18-8A41CC07DE87</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

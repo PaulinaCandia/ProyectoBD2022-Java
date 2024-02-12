@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="cuotas creditos solicitados FK" directorySegmentName="seg_0" id="FDF6797C-2775-E724-A57A-FC9696522D96">
+<createdBy>usm</createdBy>
+<createdTime>2022-06-22 15:01:22 UTC</createdTime>
+<ownerDesignName>coopera</ownerDesignName>
+<engineerTo>
+<item key="3FC1B1D9-F748-9D00-F663-F1024BBA4F20" value="true"/>
+</engineerTo>
+<sourcePk>F13A0DE8-0986-FD11-602C-8F65B9DBBEC8</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>asociadas</nameOnSource>
+<nameOnTarget>posee</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E657419F-D73B-0010-1D5C-1712AE6509A2</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5095DB6F-1607-A32C-A10D-BB4FA0EDF0FE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

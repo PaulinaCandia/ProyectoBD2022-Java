@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A14B8983-BBFB-168C-9141-E235D7CFEB5E" name="boletas">
+<createdBy>usm</createdBy>
+<createdTime>2022-06-22 16:30:53 UTC</createdTime>
+<ownerDesignName>asd</ownerDesignName>
+<engineerTo>
+<item key="37569E07-38FA-94AA-D2FB-6E60E55FD775" value="true"/>
+<item key="B0B9F2DA-289E-B181-965A-BBE7B50D3602" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id boleta" id="9BDC9274-E75B-A65E-0AE6-A9E66522C010">
+<createdBy>usm</createdBy>
+<createdTime>2022-06-22 16:31:06 UTC</createdTime>
+<commentInRDBMS>numero identificador de boleta</commentInRDBMS>
+<ownerDesignName>asd</ownerDesignName>
+<engineerTo>
+<item key="37569E07-38FA-94AA-D2FB-6E60E55FD775" value="true"/>
+<item key="B0B9F2DA-289E-B181-965A-BBE7B50D3602" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha pagada" id="6D457AE6-9273-D689-7FD5-C544A6592600">
+<createdBy>usm</createdBy>
+<createdTime>2022-06-22 16:31:19 UTC</createdTime>
+<commentInRDBMS>fecha pagada,  [default = sysdate]</commentInRDBMS>
+<ownerDesignName>asd</ownerDesignName>
+<engineerTo>
+<item key="37569E07-38FA-94AA-D2FB-6E60E55FD775" value="true"/>
+<item key="B0B9F2DA-289E-B181-965A-BBE7B50D3602" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<defaultValue>SYSDATE</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="monto pagado" id="DB04270D-095C-7528-A256-0FE75CDC1DD1">
+<createdBy>usm</createdBy>
+<createdTime>2022-06-22 16:31:35 UTC</createdTime>
+<commentInRDBMS>cantidad de monto pagado</commentInRDBMS>
+<ownerDesignName>asd</ownerDesignName>
+<engineerTo>
+<item key="37569E07-38FA-94AA-D2FB-6E60E55FD775" value="true"/>
+<item key="B0B9F2DA-289E-B181-965A-BBE7B50D3602" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="interes pagado" id="60C0F1CD-4D6D-C23E-6C92-CAAE05B241F9">
+<createdBy>usm</createdBy>
+<createdTime>2022-06-22 16:33:02 UTC</createdTime>
+<commentInRDBMS>cantidad de interes pagado</commentInRDBMS>
+<ownerDesignName>asd</ownerDesignName>
+<engineerTo>
+<item key="37569E07-38FA-94AA-D2FB-6E60E55FD775" value="true"/>
+<item key="B0B9F2DA-289E-B181-965A-BBE7B50D3602" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha vencimiento" id="A00B6628-2E1C-24F8-2FE6-FD180D6AC4D5">
+<createdBy>usm</createdBy>
+<createdTime>2022-06-22 16:32:31 UTC</createdTime>
+<commentInRDBMS>fecha de vencimiento</commentInRDBMS>
+<ownerDesignName>asd</ownerDesignName>
+<engineerTo>
+<item key="37569E07-38FA-94AA-D2FB-6E60E55FD775" value="true"/>
+<item key="B0B9F2DA-289E-B181-965A-BBE7B50D3602" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2C0B8DD6-74EA-6F5E-3A8A-27B8DA4DF0FC" name="boletas_PK">
+<createdBy>usm</createdBy>
+<createdTime>2022-06-22 16:33:37 UTC</createdTime>
+<ownerDesignName>asd</ownerDesignName>
+<engineerTo>
+<item key="37569E07-38FA-94AA-D2FB-6E60E55FD775" value="true"/>
+<item key="B0B9F2DA-289E-B181-965A-BBE7B50D3602" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9BDC9274-E75B-A65E-0AE6-A9E66522C010</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

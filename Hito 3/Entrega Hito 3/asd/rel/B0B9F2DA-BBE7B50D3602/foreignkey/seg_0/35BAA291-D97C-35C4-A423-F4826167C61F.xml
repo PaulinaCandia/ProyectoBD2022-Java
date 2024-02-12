@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="35BAA291-D97C-35C4-A423-F4826167C61F" containerWithKeyObject="D3FDB448-1D4F-9A92-29E8-2AC0990E693A" localFKIndex="A26E673C-AE92-1DB7-773C-16729E8FBC93" name="aportes_solicitados_cupones_de_pagos_FK">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-20 15:06:57 UTC</createdTime>
+<generatorID>6C275530-3759-32CF-E389-20F47F1A5369</generatorID>
+<ownerDesignName>asd</ownerDesignName>
+<referredTableLongName>cupones_de_pagos</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C09F4700-F985-A768-1596-27742CE0D9E1</referredTableID>
+<keyObject>5BBF5861-DF1C-8648-ADCD-DFE28006C918</keyObject>
+<referredKeyID>5BBF5861-DF1C-8648-ADCD-DFE28006C918</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_cupon</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

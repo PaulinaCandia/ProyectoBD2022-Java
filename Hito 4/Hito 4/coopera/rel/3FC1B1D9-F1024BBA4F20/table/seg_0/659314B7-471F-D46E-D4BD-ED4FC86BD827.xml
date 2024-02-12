@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="659314B7-471F-D46E-D4BD-ED4FC86BD827" name="Categorias">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-26 12:46:47 UTC</createdTime>
+<generatorID>C38B3F87-21E4-CE97-6B22-97E0EBF80542</generatorID>
+<ownerDesignName>coopera</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_categoria" id="57E7BAEE-CD92-FEE4-303E-4CA79B3B9CBB">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-26 12:46:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[numero identificador de la categoria]]></commentInRDBMS>
+<generatorID>658A41BB-3771-C9B0-F453-5BB007C85702</generatorID>
+<ownerDesignName>coopera</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_cliente" id="2673F180-86FD-68A4-0787-A26BF104D2ED">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-26 12:46:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[el cliente puede ser nuevo, vigente o moroso]]></commentInRDBMS>
+<generatorID>58A6482E-4F53-9311-863B-387967775C2D</generatorID>
+<ownerDesignName>coopera</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="09D6F73D-DBBE-EFF1-E035-FEE11CF8E154" name="Categorias_PK">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-26 12:46:47 UTC</createdTime>
+<generatorID>93B9D9DB-0973-8255-C661-F04A0DAD2F87</generatorID>
+<ownerDesignName>coopera</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="57E7BAEE-CD92-FEE4-303E-4CA79B3B9CBB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

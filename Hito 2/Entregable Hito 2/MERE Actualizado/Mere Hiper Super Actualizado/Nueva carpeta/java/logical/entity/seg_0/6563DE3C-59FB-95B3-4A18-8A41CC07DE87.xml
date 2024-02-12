@@ -1,0 +1,207 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6563DE3C-59FB-95B3-4A18-8A41CC07DE87" name="socio">
+<createdBy>megav</createdBy>
+<createdTime>2022-06-22 14:10:23 UTC</createdTime>
+<ownerDesignName>java</ownerDesignName>
+<engineerTo>
+<item key="B2D20CE4-8362-BD74-1529-12EC5C2F20B9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id socio" id="9CCB9BEE-432A-52B0-CDC0-5753F53A2958">
+<createdBy>megav</createdBy>
+<createdTime>2022-06-22 14:19:52 UTC</createdTime>
+<commentInRDBMS><![CDATA[socio posee un numero identificador que es el id (key)]]></commentInRDBMS>
+<ownerDesignName>java</ownerDesignName>
+<engineerTo>
+<item key="B2D20CE4-8362-BD74-1529-12EC5C2F20B9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="2B6A71E9-5445-A825-E78D-1DFDF3DE5435">
+<createdBy>megav</createdBy>
+<createdTime>2022-06-22 14:23:44 UTC</createdTime>
+<commentInRDBMS><![CDATA[primer nombre del socio]]></commentInRDBMS>
+<ownerDesignName>java</ownerDesignName>
+<engineerTo>
+<item key="B2D20CE4-8362-BD74-1529-12EC5C2F20B9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ap paterno" id="88F21754-C06B-2F36-AA77-DCD575B31E3B">
+<createdBy>megav</createdBy>
+<createdTime>2022-06-22 14:24:16 UTC</createdTime>
+<commentInRDBMS><![CDATA[apellido paterno del socio]]></commentInRDBMS>
+<ownerDesignName>java</ownerDesignName>
+<engineerTo>
+<item key="B2D20CE4-8362-BD74-1529-12EC5C2F20B9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ap materno" id="89050EFB-8324-8FB0-A648-7FC133D71788">
+<createdBy>megav</createdBy>
+<createdTime>2022-06-22 14:24:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[apellido materno del socio]]></commentInRDBMS>
+<ownerDesignName>java</ownerDesignName>
+<engineerTo>
+<item key="B2D20CE4-8362-BD74-1529-12EC5C2F20B9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="e-mail" id="92FF0CB9-52A9-3278-EE03-7D6C05DF45D8">
+<createdBy>megav</createdBy>
+<createdTime>2022-06-22 14:24:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[correo electronico del socio]]></commentInRDBMS>
+<ownerDesignName>java</ownerDesignName>
+<engineerTo>
+<item key="B2D20CE4-8362-BD74-1529-12EC5C2F20B9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="direccion" id="681781B4-8173-A940-F3E5-F606010CD222">
+<createdBy>megav</createdBy>
+<createdTime>2022-06-22 14:25:19 UTC</createdTime>
+<commentInRDBMS><![CDATA[direccion del socio]]></commentInRDBMS>
+<ownerDesignName>java</ownerDesignName>
+<engineerTo>
+<item key="B2D20CE4-8362-BD74-1529-12EC5C2F20B9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cuidad" id="C3890B50-967D-4E26-71E4-EB34D7347F3A">
+<createdBy>megav</createdBy>
+<createdTime>2022-06-22 14:25:29 UTC</createdTime>
+<commentInRDBMS><![CDATA[ciudad del socio]]></commentInRDBMS>
+<ownerDesignName>java</ownerDesignName>
+<engineerTo>
+<item key="B2D20CE4-8362-BD74-1529-12EC5C2F20B9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="region" id="A6A83B5C-EA91-4216-320E-A230D68F86D1">
+<createdBy>megav</createdBy>
+<createdTime>2022-06-22 14:25:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[region del socio]]></commentInRDBMS>
+<ownerDesignName>java</ownerDesignName>
+<engineerTo>
+<item key="B2D20CE4-8362-BD74-1529-12EC5C2F20B9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha inscripcion" id="0FA70468-0E35-28AC-7A09-AAA7BD51B209">
+<createdBy>megav</createdBy>
+<createdTime>2022-06-22 14:26:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[fecha en la que se inscribió el socio,  [default = sysdate]]]></commentInRDBMS>
+<ownerDesignName>java</ownerDesignName>
+<engineerTo>
+<item key="B2D20CE4-8362-BD74-1529-12EC5C2F20B9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<defaultValue>SYSDATE</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="aporte inscripcion" id="1558E257-78FD-25C5-DE6B-F57687ADC3F2">
+<createdBy>usm</createdBy>
+<createdTime>2022-06-22 16:54:53 UTC</createdTime>
+<commentInRDBMS><![CDATA[es el monto que el socio paga al inscribirse]]></commentInRDBMS>
+<ownerDesignName>java</ownerDesignName>
+<engineerTo>
+<item key="B2D20CE4-8362-BD74-1529-12EC5C2F20B9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Categoria id categoria" id="DFEDDAF1-EB4C-D54A-B235-816F77F57B72">
+<createdBy>Tino</createdBy>
+<createdTime>2022-06-29 16:04:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[numero identificador de la categoria]]></commentInRDBMS>
+<generatorID>4B7E3CE9-CFCC-0CF2-1C7B-4E7F037DAAFB</generatorID>
+<ownerDesignName>java</ownerDesignName>
+<engineerTo>
+<item key="B2D20CE4-8362-BD74-1529-12EC5C2F20B9" value="true"/>
+</engineerTo>
+<referedAttribute>658A41BB-3771-C9B0-F453-5BB007C85702</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id profesion" id="7AD28CE2-2C3F-B976-DB51-18E29DB9387C">
+<createdBy>usm</createdBy>
+<createdTime>2022-06-30 14:07:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[numero identificador de la profesion]]></commentInRDBMS>
+<generatorID>7BBFADD7-D056-25FD-E1C1-AD70140975EF</generatorID>
+<ownerDesignName>java</ownerDesignName>
+<engineerTo>
+<item key="B2D20CE4-8362-BD74-1529-12EC5C2F20B9" value="true"/>
+</engineerTo>
+<referedAttribute>5B5BF452-C4E1-2104-4861-FB3F27BC3FB9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B604D964-8777-FD85-586B-AFB5E71C9ADF" name="socio PK">
+<createdBy>megav</createdBy>
+<createdTime>2022-06-22 14:23:40 UTC</createdTime>
+<ownerDesignName>java</ownerDesignName>
+<engineerTo>
+<item key="B2D20CE4-8362-BD74-1529-12EC5C2F20B9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9CCB9BEE-432A-52B0-CDC0-5753F53A2958</attributeRef>
+<attributeRef>DFEDDAF1-EB4C-D54A-B235-816F77F57B72</attributeRef>
+<attributeRef>7AD28CE2-2C3F-B976-DB51-18E29DB9387C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

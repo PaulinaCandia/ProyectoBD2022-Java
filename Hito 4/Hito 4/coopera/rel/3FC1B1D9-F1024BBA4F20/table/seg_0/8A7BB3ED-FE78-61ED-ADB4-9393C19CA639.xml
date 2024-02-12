@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8A7BB3ED-FE78-61ED-ADB4-9393C19CA639" name="aportes_solicitados">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-26 12:46:47 UTC</createdTime>
+<generatorID>7AE081FB-1E3B-20B9-EB7A-17AA9BB11D5D</generatorID>
+<ownerDesignName>coopera</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_aport_soli" id="994731C1-6546-8AA7-730A-A00ACBA40445">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-26 12:46:47 UTC</createdTime>
+<generatorID>C1C6DBE6-3B98-E5BC-DB53-480190E52DC6</generatorID>
+<ownerDesignName>coopera</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="meses_tomados" id="90448F68-2940-4214-BE28-C1DCC1F1AD38">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-26 12:46:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[cantidad de meses tomados]]></commentInRDBMS>
+<generatorID>200CC46F-0B99-45B2-DDC8-0F18B25F4BDB</generatorID>
+<ownerDesignName>coopera</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_socio" id="1F935F39-0E87-6371-877E-F386E4921FC2">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-26 12:46:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[socio posee un numero identificador que es el id (key)]]></commentInRDBMS>
+<generatorID>0D85E270-1D4D-D96F-8EA5-BF4761A9F08C</generatorID>
+<ownerDesignName>coopera</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1FAB363B-0F5E-8575-358E-8F9F81D7A546" referredColumn="864F6719-82BE-08F4-6E43-A9B03E52A782"/>
+</associations>
+</Column>
+<Column name="id_aporte" id="C34844A6-F3A4-9B84-B2CD-8DA36C2DC954">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-26 12:46:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[numero identificador del aporte]]></commentInRDBMS>
+<generatorID>C1997902-665B-411B-8F0E-92092BAB7056</generatorID>
+<ownerDesignName>coopera</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="54D748C8-DFF0-E0FF-69CE-70B21F43C906" referredColumn="E4253E32-F866-804A-5853-ADCF5BFC1210"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CE0BE3B5-1D92-BC47-C144-3E5865E8DD5D" name="aportes_solicitados_PK">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-26 12:46:47 UTC</createdTime>
+<generatorID>EB232BE6-A5C4-9D15-BD42-AA171BB6EA48</generatorID>
+<ownerDesignName>coopera</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="994731C1-6546-8AA7-730A-A00ACBA40445"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A6D87A60-6396-FE08-FFA2-669D7D63F25F" name="aportes_solicitados_aportes_FK">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-26 12:46:47 UTC</createdTime>
+<generatorID>7DCB81CE-02F2-E744-1D4C-9DB61F2D5243</generatorID>
+<ownerDesignName>coopera</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C34844A6-F3A4-9B84-B2CD-8DA36C2DC954"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AB21DF35-DFD7-BA67-AE5F-FA8AFDC947D1" name="aportes_solicitados_socios_FK">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-26 12:46:47 UTC</createdTime>
+<generatorID>7B0AF6D2-1CFB-7A2C-8698-20684F7B8FCC</generatorID>
+<ownerDesignName>coopera</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1F935F39-0E87-6371-877E-F386E4921FC2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

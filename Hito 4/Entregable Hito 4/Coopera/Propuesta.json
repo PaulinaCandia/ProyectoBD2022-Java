@@ -1,0 +1,54 @@
+{
+    "socio":{
+        "id": ,
+        "Nombre": "",
+        "Paterno": "",
+        "Materno": "",
+        "Email": "",
+        "Direccion": "",
+        "Fecha Inscripcion": "27/07/2022",
+        "Monto Inscripcion": "33311",
+        "Categoria": "",
+        "Residencia": "",
+        "Tipo Socio": "",
+        "Profesion": "",
+        "Creditos Solicitados": 
+            {
+                "Credito 1": 
+                    {
+                        "id": ,
+                        "Fecha": "",
+                        "Cuotas": 
+                            {
+                                "Cuota 1": 
+                                    {
+                                        "id": ,
+                                        "Fecha Vencimiento" : "",
+                                        "Monto Cuota": ,
+                                        "Intereses": ,
+                                        "Monto a pagar": ,
+                                        "Estado Cuota": "",
+                                        "Fecha Pago" : "",
+                                        "Monto Pago" : ,
+                                        "Multa":   
+                                            {
+                                                "id": ,
+                                                "Monto multa": 
+                                            },
+                                        "Boleta": 
+                                            {
+                                                "id": ,
+                                                "Fecha Pago": "",
+                                                "Monto Pagado": ,
+                                                "Interes Pagado": ,
+                                                "Fecha Vencimiento": ""
+                                            }
+                                    }
+                            },
+                        "Monto": ,
+                        "Nombre Credito": ""
+                    }
+            }
+
+    }
+}

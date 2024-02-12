@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7AE081FB-1E3B-20B9-EB7A-17AA9BB11D5D" name="aportes solicitados">
+<createdBy>megav</createdBy>
+<createdTime>2022-06-22 14:15:17 UTC</createdTime>
+<ownerDesignName>coopera</ownerDesignName>
+<engineerTo>
+<item key="3FC1B1D9-F748-9D00-F663-F1024BBA4F20" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_aport_soli" id="C1C6DBE6-3B98-E5BC-DB53-480190E52DC6">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-26 12:33:05 UTC</createdTime>
+<ownerDesignName>coopera</ownerDesignName>
+<engineerTo>
+<item key="3FC1B1D9-F748-9D00-F663-F1024BBA4F20" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="meses tomados" id="200CC46F-0B99-45B2-DDC8-0F18B25F4BDB">
+<createdBy>usm</createdBy>
+<createdTime>2022-06-22 15:18:48 UTC</createdTime>
+<commentInRDBMS><![CDATA[cantidad de meses tomados]]></commentInRDBMS>
+<ownerDesignName>coopera</ownerDesignName>
+<engineerTo>
+<item key="3FC1B1D9-F748-9D00-F663-F1024BBA4F20" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id socio" id="0D85E270-1D4D-D96F-8EA5-BF4761A9F08C">
+<createdBy>usm</createdBy>
+<createdTime>2022-06-22 16:06:07 UTC</createdTime>
+<commentInRDBMS><![CDATA[socio posee un numero identificador que es el id (key)]]></commentInRDBMS>
+<generatorID>7B0AF6D2-1CFB-7A2C-8698-20684F7B8FCC</generatorID>
+<ownerDesignName>coopera</ownerDesignName>
+<engineerTo>
+<item key="3FC1B1D9-F748-9D00-F663-F1024BBA4F20" value="true"/>
+</engineerTo>
+<referedAttribute>9CCB9BEE-432A-52B0-CDC0-5753F53A2958</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_aporte" id="C1997902-665B-411B-8F0E-92092BAB7056">
+<createdBy>usm</createdBy>
+<createdTime>2022-06-22 16:21:52 UTC</createdTime>
+<commentInRDBMS><![CDATA[numero identificador del aporte]]></commentInRDBMS>
+<generatorID>7DCB81CE-02F2-E744-1D4C-9DB61F2D5243</generatorID>
+<ownerDesignName>coopera</ownerDesignName>
+<engineerTo>
+<item key="3FC1B1D9-F748-9D00-F663-F1024BBA4F20" value="true"/>
+</engineerTo>
+<referedAttribute>7AD105F6-DADA-839D-736E-AF88CB636352</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EB232BE6-A5C4-9D15-BD42-AA171BB6EA48" name="aportes_solicitados_PK">
+<createdBy>usm</createdBy>
+<createdTime>2022-06-22 15:19:10 UTC</createdTime>
+<ownerDesignName>coopera</ownerDesignName>
+<engineerTo>
+<item key="3FC1B1D9-F748-9D00-F663-F1024BBA4F20" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C1C6DBE6-3B98-E5BC-DB53-480190E52DC6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

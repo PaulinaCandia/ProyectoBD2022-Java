@@ -1,0 +1,134 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="58DCF2C5-6E2C-2C6E-5F4E-9460ED96F825" name="creditos_solicitados">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-26 12:46:47 UTC</createdTime>
+<generatorID>E657419F-D73B-0010-1D5C-1712AE6509A2</generatorID>
+<ownerDesignName>coopera</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_credito_solicitado" id="F779A4AC-C2EA-4BA9-18B7-B41193690255">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-26 12:46:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[numero identificador del credito solicitado]]></commentInRDBMS>
+<generatorID>2BCECDA9-02B0-38D4-A8F5-DABC0EEB73F3</generatorID>
+<ownerDesignName>coopera</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_solicitud" id="4E173EE5-285D-42E6-BEF7-BAA25AA17D56">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-26 12:46:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[fecha de la solicitud del credito,  [default = sysdate]]]></commentInRDBMS>
+<generatorID>63037B51-6EB4-0EC4-2881-EA4311F7D4E9</generatorID>
+<ownerDesignName>coopera</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<defaultValue>SYSDATE</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cant_cuotas" id="C1D414A3-B304-B265-534A-C35815562235">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-26 12:46:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[la cantidad de cuotas]]></commentInRDBMS>
+<generatorID>3A1BF266-949E-F35B-E594-D1D884FF58EB</generatorID>
+<ownerDesignName>coopera</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="monto_solicitado" id="AD6314E2-E661-DB68-2131-2673BF36DE04">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-26 12:46:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[la cantidad del monto solicitado]]></commentInRDBMS>
+<generatorID>5605063A-A216-2E14-5103-813C4FCCF941</generatorID>
+<ownerDesignName>coopera</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_socio" id="B4E6C70E-97DE-B7C1-8892-2FC782ED59C6">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-26 12:46:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[socio posee un numero identificador que es el id (key)]]></commentInRDBMS>
+<generatorID>B32ACC16-3B62-3D2E-A200-31AC1B3A56D6</generatorID>
+<ownerDesignName>coopera</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B2D936FD-59F9-5009-94B5-377826852A04" referredColumn="864F6719-82BE-08F4-6E43-A9B03E52A782"/>
+</associations>
+</Column>
+<Column name="id_credito" id="541D2EE0-245D-5A9D-D60F-A8341BE1E6C6">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-26 12:46:47 UTC</createdTime>
+<generatorID>413D227B-6A05-53E5-8D2B-C395FBEB2492</generatorID>
+<ownerDesignName>coopera</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E3128305-C733-D8DF-E975-EC6D84D13A2C" referredColumn="807F6285-C449-987B-4BF4-5024AB7FE1D3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CA68EE09-ED33-6C47-E9F2-E9FAA8E3810B" name="creditos_solicitados_PK">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-26 12:46:47 UTC</createdTime>
+<generatorID>F13A0DE8-0986-FD11-602C-8F65B9DBBEC8</generatorID>
+<ownerDesignName>coopera</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F779A4AC-C2EA-4BA9-18B7-B41193690255"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DD48403F-BA7E-C66B-D5D3-FEB44C384BD9" name="credi_soli_credi_FK">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-26 12:46:47 UTC</createdTime>
+<generatorID>FBA9A3F8-1B46-2184-9C23-62849F03FA71</generatorID>
+<ownerDesignName>coopera</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="541D2EE0-245D-5A9D-D60F-A8341BE1E6C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="59C82294-AAFC-15D2-44E6-A95AB6988EDD" name="credi_soli_soci_FK">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-26 12:46:47 UTC</createdTime>
+<generatorID>BAC94760-FB47-66AE-8F73-1B92E7935BE4</generatorID>
+<ownerDesignName>coopera</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B4E6C70E-97DE-B7C1-8892-2FC782ED59C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

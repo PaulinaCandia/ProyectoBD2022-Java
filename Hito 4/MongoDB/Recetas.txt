@@ -1,0 +1,112 @@
+i={
+    "_id"          : "4da2c0e2e999fb56bf000002",
+    "receta"       : "Redondillo de ternera",
+    "ingredientes" : "Lomo alto de ternera...",
+    "modo_hacerlo" : "Atar la carne con una cuerda...",
+    "publicado" : "2013-05-09T18:17:07-07:00",
+    "autor_info"  : {
+                       "_id"  : "4dc8919331c0c00001000002",
+                       "name" : "Beatriz Bern·rdez"
+                     },
+    "tags"         : ["carne", "horno", "celiacos"],
+    "post": [
+                       {
+                         "autor_info" : { "name" : "Jorge López", "email" : "email1@example.com" },
+                         "cuerpo"     : "Se tarda mucho",
+                         "creado"     : "2013-06-10T10:14:01-07:00"
+                       },
+                       {
+                         "autor_info" : { "name" : "Angela Rodríguez", "email" : "email2@example.com" },
+                         "cuerpo"     : "Sencillo y rico",
+                         "creado"     : "2013-07-10T10:14:09-07:00"
+                       }
+                     ],
+    "me_gusta"     : ["4d7cf768e999fb67c0000001", "4da34c62ba875a19d4000001"]
+  };
+
+j={
+    "_id"          : "4da2c0e2e999fb56bf000003",
+    "receta"       : "Tarta de dulce de leche",
+    "ingredientes" : "Lata de leche condensada, galletas sin glutén",
+    "modo_hacerlo" : "Poner la lata al baÒo marÌa...",
+    "publicado" : "2013-06-09T18:17:07-07:00",
+    "autor_info"  : {
+                       "_id"  : "4dc8919331c0c00001000002",
+                       "name" : "Beatriz Bern·rdez"
+                     },
+    "tags"         : ["postre", "chocolate", "celiaquia"],
+    "me_gusta"     : ["4d7cf768e999fb67c0000002", "4da34c62ba875a19d4000001"]
+  };
+
+m={
+    "_id"          : "4da2c0e2e999fb56bf000044",
+    "receta"       : "Salmorejo",
+    "ingredientes" : "Tomates,...",
+    "modo_hacerlo" : "Pelar los tomates...",
+    "publicado" : "2014-01-09T18:17:07-07:00",
+    "autor_info"  : {
+                       "_id"  : "4dc8919331c0c00001000002",
+                       "name" : "Beatriz Benitez"
+                     },
+    "tags"         : ["verdura", "verano", "primero"],
+    "post": [
+                       {
+                         "autor_info" : { "name" : "Jorge López", "email" : "email1@example.com" },
+                         "cuerpo"     : "Servir frío",
+                         "creado"     : "2013-06-10T10:14:01-07:00"
+                       },
+                       {
+                         "autor_info" : { "name" : "Andrea Cano", "email" : "email3@example.com" },
+                         "cuerpo"     : "Le puse la mitad de ajo",
+                         "creado"     : "2013-11-10T10:14:09-07:00"
+                       }
+                     ],
+    "me_gusta"     : ["4d7cf768e999fb67c0000001", "4da34c62ba875a19d4000001", "4da34c62ba875a19d4000221"]
+  };
+
+n={
+    "_id"          : "4da2c0e2e999fb56bf000084",
+    "receta"       : "Parrillada de la huerta",
+    "ingredientes" : "Berengenas...",
+    "modo_hacerlo" : "Pelar los tomates...",
+    "publicado" : "2014-01-09T18:17:07-07:00",
+    "autor_info"  : {
+                       "_id"  : "4dc8919331c0c00001000002",
+                       "name" : "Beatriz Bernardez"
+                     },
+    "tags"         : ["verdura", "verano", "segundo"],
+    "post": [
+                       {
+                         "autor_info" : { "name" : "Jorge López", "email" : "email1@example.com" },
+                         "cuerpo"     : "Mejor en barbacoa",
+                         "creado"     : "2013-06-10T10:14:01-07:00"
+                       },
+                       {
+                         "autor_info" : { "name" : "Rut Can", "email" : "email4@example.com" },
+                         "cuerpo"     : "El tomate tarda",
+                         "creado"     : "2013-08-10T10:14:09-07:00"
+                       }
+                     ],
+    "me_gusta"     : ["4d7cf768e999fb67c0000001", "4da34c62ba875a19d4000001", "4da34c62ba875a19d4000221", "4da34c62ba875a19d4000221"]
+  };
+
+o={
+    "_id"          : "4da2c0e2e999fb56bf000077",
+    "receta"       : "Bizcocho",
+    "ingredientes" : "Harina",
+    "modo_hacerlo" : "Batir los huevos",
+    "publicado" : "2014-03-09T18:17:07-07:00",
+    "autor_info"  : {
+                       "_id"  : "4dc8919331c0c00001000012",
+                       "name" : "Amalia Gil"
+                     },
+    "tags"         : ["postre", "merienda", "cumpleaños"],
+    "post": [
+                       {
+                         "autor_info" : { "name" : "Jorge López", "email" : "email1@example.com" },
+                         "cuerpo"     : "Mejor con harina de bizcocho",
+                         "creado"     : "2013-06-10T10:14:01-07:00"
+                       }                       
+                     ],
+    "me_gusta"     : ["4da34c62ba875a19d4000221", "4da34c62ba875a19d4000221"]
+  };

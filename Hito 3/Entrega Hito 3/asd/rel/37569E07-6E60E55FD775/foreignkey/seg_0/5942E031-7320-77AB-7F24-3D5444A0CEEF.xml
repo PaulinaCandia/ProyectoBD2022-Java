@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5942E031-7320-77AB-7F24-3D5444A0CEEF" containerWithKeyObject="A4B89FA4-48FC-CDD4-6F13-B04C9816755B" localFKIndex="A1F0ACEE-F357-412A-E225-FA4D70C47194" name="creditos_FK">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-20 15:22:18 UTC</createdTime>
+<generatorID>FBA9A3F8-1B46-2184-9C23-62849F03FA71</generatorID>
+<ownerDesignName>asd</ownerDesignName>
+<referredTableLongName>creditos</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DB0D5532-35FB-BEEF-221C-4F0277F54FCA</referredTableID>
+<keyObject>AD9B4A69-787F-7987-0834-EEDF4B62E6DC</keyObject>
+<referredKeyID>AD9B4A69-787F-7987-0834-EEDF4B62E6DC</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_credito</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

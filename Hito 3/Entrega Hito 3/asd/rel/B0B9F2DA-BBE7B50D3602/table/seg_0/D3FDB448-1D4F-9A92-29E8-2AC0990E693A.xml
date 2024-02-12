@@ -1,0 +1,147 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D3FDB448-1D4F-9A92-29E8-2AC0990E693A" name="aportes_solicitados">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-20 15:06:57 UTC</createdTime>
+<generatorID>7AE081FB-1E3B-20B9-EB7A-17AA9BB11D5D</generatorID>
+<ownerDesignName>asd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="meses_tomados" id="E7341B33-975A-F0EB-0EA0-E41D667331F4">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-20 15:06:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[cantidad de meses tomados]]></commentInRDBMS>
+<generatorID>200CC46F-0B99-45B2-DDC8-0F18B25F4BDB</generatorID>
+<ownerDesignName>asd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_socio" id="2707874C-EB0C-A6A0-711A-D26BA206C9A8">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-20 15:06:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[socio posee un numero identificador que es el id (key)]]></commentInRDBMS>
+<generatorID>0D85E270-1D4D-D96F-8EA5-BF4761A9F08C</generatorID>
+<ownerDesignName>asd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CA80BCB2-BAF5-637D-7418-7E09FA1E2E86" referredColumn="5F8F5E16-1C8E-D2DE-6851-D8349096DDAA"/>
+</associations>
+</Column>
+<Column name="id_cupon" id="0E887C0A-26D0-3B6B-8040-6AC257C1FC8A">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-20 15:06:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[numero identificador del cupon]]></commentInRDBMS>
+<generatorID>A32CEAAE-E5A7-2BA2-49AD-80A093DE495B</generatorID>
+<ownerDesignName>asd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="35BAA291-D97C-35C4-A423-F4826167C61F" referredColumn="E3C4AE94-1AC1-7C89-844D-4CBFD37023E1"/>
+</associations>
+</Column>
+<Column name="aportes_id_aporte" id="B9933D86-7345-AB78-4D01-0F4EF131E5E8">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-20 15:06:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[numero identificador del aporte]]></commentInRDBMS>
+<generatorID>C1997902-665B-411B-8F0E-92092BAB7056</generatorID>
+<ownerDesignName>asd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C88DDFF2-F42A-E995-F8D1-53FEA86A6F1E" referredColumn="17EBCE36-456F-EC52-9A4B-09342EF28EAA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="273F86F8-B72E-759A-92BA-7A7635532C33" name="aportes_solicitados_PK">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-20 15:06:57 UTC</createdTime>
+<generatorID>EB232BE6-A5C4-9D15-BD42-AA171BB6EA48</generatorID>
+<ownerDesignName>asd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B9933D86-7345-AB78-4D01-0F4EF131E5E8"/>
+<colUsage columnID="2707874C-EB0C-A6A0-711A-D26BA206C9A8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="70C59066-3511-79AC-0525-ACCD041B2566" name="aportes_solicitados__IDX">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-20 15:06:57 UTC</createdTime>
+<ownerDesignName>asd</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>7DCB81CE-02F2-E744-1D4C-9DB61F2D5243</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="B9933D86-7345-AB78-4D01-0F4EF131E5E8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EFC6E89B-27A3-C0CC-5037-9C236134B88F" name="aportes_solicitados__IDXv1">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-20 15:06:57 UTC</createdTime>
+<ownerDesignName>asd</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>6C275530-3759-32CF-E389-20F47F1A5369</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="0E887C0A-26D0-3B6B-8040-6AC257C1FC8A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="53373053-782F-B8A9-A633-44C99611CED3" name="aportes_solicitados_aportes_FK">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-20 15:06:57 UTC</createdTime>
+<generatorID>7DCB81CE-02F2-E744-1D4C-9DB61F2D5243</generatorID>
+<ownerDesignName>asd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B9933D86-7345-AB78-4D01-0F4EF131E5E8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A26E673C-AE92-1DB7-773C-16729E8FBC93" name="aportes_solicitados_cupones_de_pagos_FK">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-20 15:06:57 UTC</createdTime>
+<generatorID>6C275530-3759-32CF-E389-20F47F1A5369</generatorID>
+<ownerDesignName>asd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0E887C0A-26D0-3B6B-8040-6AC257C1FC8A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3F2B4427-106B-17F6-2535-6E4EB0467A62" name="aportes_solicitados_socios_FK">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-20 15:06:57 UTC</createdTime>
+<generatorID>7B0AF6D2-1CFB-7A2C-8698-20684F7B8FCC</generatorID>
+<ownerDesignName>asd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2707874C-EB0C-A6A0-711A-D26BA206C9A8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

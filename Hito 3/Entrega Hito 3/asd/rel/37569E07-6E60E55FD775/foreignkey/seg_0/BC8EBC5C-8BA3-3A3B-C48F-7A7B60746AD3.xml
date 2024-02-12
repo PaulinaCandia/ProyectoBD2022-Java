@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BC8EBC5C-8BA3-3A3B-C48F-7A7B60746AD3" containerWithKeyObject="C34456A9-3045-D883-9CEA-33609AF314B6" localFKIndex="B9754D87-9BE2-D26F-57B6-DCA142DD164A" name="cuotas_creditos_solicitados_FK">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-20 15:22:18 UTC</createdTime>
+<generatorID>FDF6797C-2775-E724-A57A-FC9696522D96</generatorID>
+<ownerDesignName>asd</ownerDesignName>
+<referredTableLongName>creditos_solicitados</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A4B89FA4-48FC-CDD4-6F13-B04C9816755B</referredTableID>
+<keyObject>B8A42111-4027-F6F4-DB55-9114065930DF</keyObject>
+<referredKeyID>B8A42111-4027-F6F4-DB55-9114065930DF</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_credito_solicitado</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

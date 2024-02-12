@@ -1,0 +1,261 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C6E5B1D1-B6F4-A6CB-D89B-EF804434E7A3" name="socios">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-20 15:06:57 UTC</createdTime>
+<generatorID>6563DE3C-59FB-95B3-4A18-8A41CC07DE87</generatorID>
+<ownerDesignName>asd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_socio" id="5F8F5E16-1C8E-D2DE-6851-D8349096DDAA">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-20 15:06:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[socio posee un numero identificador que es el id (key)]]></commentInRDBMS>
+<generatorID>9CCB9BEE-432A-52B0-CDC0-5753F53A2958</generatorID>
+<ownerDesignName>asd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="1C9106BF-C431-E081-2200-C1AB8B8B5F1A">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-20 15:06:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[primer nombre del socio]]></commentInRDBMS>
+<generatorID>2B6A71E9-5445-A825-E78D-1DFDF3DE5435</generatorID>
+<ownerDesignName>asd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ap_paterno" id="E32000D0-4FAC-860A-0BF2-6AB412076E4F">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-20 15:06:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[apellido paterno del socio]]></commentInRDBMS>
+<generatorID>88F21754-C06B-2F36-AA77-DCD575B31E3B</generatorID>
+<ownerDesignName>asd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ap_materno" id="61C99662-4CC2-7B5C-4F30-8914A275B05D">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-20 15:06:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[apellido materno del socio]]></commentInRDBMS>
+<generatorID>89050EFB-8324-8FB0-A648-7FC133D71788</generatorID>
+<ownerDesignName>asd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="e-mail" id="FFEC3011-DA2E-C10D-5F92-42DF444E5053">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-20 15:06:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[correo electronico del socio]]></commentInRDBMS>
+<generatorID>92FF0CB9-52A9-3278-EE03-7D6C05DF45D8</generatorID>
+<ownerDesignName>asd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion" id="0560DBA0-293B-5A3B-865E-BF3F7C99B4E6">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-20 15:06:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[direccion del socio]]></commentInRDBMS>
+<generatorID>681781B4-8173-A940-F3E5-F606010CD222</generatorID>
+<ownerDesignName>asd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_inscripcion" id="47AFD990-BC34-D5B8-866C-9BBE17AA655A">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-20 15:06:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[fecha en la que se inscribió el socio,  [default = sysdate]]]></commentInRDBMS>
+<generatorID>0FA70468-0E35-28AC-7A09-AAA7BD51B209</generatorID>
+<ownerDesignName>asd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<defaultValue>SYSDATE</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="aporte_inscripcion" id="2189D549-F515-866E-69C7-9A6908A869A6">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-20 15:06:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[es el monto que el socio paga al inscribirse]]></commentInRDBMS>
+<generatorID>1558E257-78FD-25C5-DE6B-F57687ADC3F2</generatorID>
+<ownerDesignName>asd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Categoria_id_categoria" id="DE73BA39-9251-BFD3-4AAB-8FB148FD8037">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-20 15:06:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[numero identificador de la categoria]]></commentInRDBMS>
+<generatorID>DFEDDAF1-EB4C-D54A-B235-816F77F57B72</generatorID>
+<ownerDesignName>asd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="63482642-3301-CF41-06E3-FB861823AB8A" referredColumn="BF4C2BDB-00E1-B7E8-B2D5-544DAFAC8A34"/>
+</associations>
+</Column>
+<Column name="id_residencia" id="4FFDC1BD-E541-DDDC-FB89-2367434FB57D">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-20 15:06:57 UTC</createdTime>
+<generatorID>A9347439-5206-0A27-45BC-1A3E07019005</generatorID>
+<ownerDesignName>asd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F7B7DF61-5093-D50F-6603-B6FAD9440A65" referredColumn="A750E1D2-71C4-85F7-1005-6D6727CAE207"/>
+</associations>
+</Column>
+<Column name="id_tipo" id="0B94DE3F-7831-DF64-847E-6BF5542B494F">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-20 15:06:57 UTC</createdTime>
+<generatorID>B85A4310-EE67-78D3-5F23-049B0704824F</generatorID>
+<ownerDesignName>asd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DE1C90B3-AE28-F01C-C2C5-A05AD1BAA234" referredColumn="DAB7A1BC-2792-97AB-1CA5-053B16DEC8E1"/>
+</associations>
+</Column>
+<Column name="id_profesion" id="B63A8C6E-61EC-D2F1-E391-A12F3335649D">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-20 15:06:57 UTC</createdTime>
+<generatorID>A5D7E4E0-17B1-71C1-283F-6D6A341D19F4</generatorID>
+<ownerDesignName>asd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="04BD61DF-02AB-3253-4666-2F551C38803B" referredColumn="9EB57186-9287-EF1D-4ECC-6796AADA5659"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="87AA65AF-8654-B6F4-250C-92361F9DCA87" name="socios_PK">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-20 15:06:57 UTC</createdTime>
+<generatorID>B604D964-8777-FD85-586B-AFB5E71C9ADF</generatorID>
+<ownerDesignName>asd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5F8F5E16-1C8E-D2DE-6851-D8349096DDAA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EA37304F-DDFF-CBCD-5B2F-29E22C2A8AFF" name="socios__IDX">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-20 15:06:57 UTC</createdTime>
+<ownerDesignName>asd</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>4A258B97-3A2B-D556-25B8-012BAAC31E1B</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="4FFDC1BD-E541-DDDC-FB89-2367434FB57D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E84F227D-DD5B-A74E-6747-B101BF538C9D" name="socios__IDXv1">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-20 15:06:57 UTC</createdTime>
+<ownerDesignName>asd</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>4B7E3CE9-CFCC-0CF2-1C7B-4E7F037DAAFB</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="DE73BA39-9251-BFD3-4AAB-8FB148FD8037"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="521C2F2C-5234-E8AD-8423-E8E8731DA6F9" name="socios_profesiones_FK">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-20 15:06:57 UTC</createdTime>
+<generatorID>20A64A75-DF3A-9522-F16B-E9E7788B0DF5</generatorID>
+<ownerDesignName>asd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B63A8C6E-61EC-D2F1-E391-A12F3335649D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B1D83942-8D3D-084F-7CD9-3103C3D83CCA" name="socios_residencias_FK">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-20 15:06:57 UTC</createdTime>
+<generatorID>4A258B97-3A2B-D556-25B8-012BAAC31E1B</generatorID>
+<ownerDesignName>asd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4FFDC1BD-E541-DDDC-FB89-2367434FB57D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F7EC741B-B9BB-DE63-E1B6-F96E692313E5" name="socios_Categorias_FK">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-20 15:06:57 UTC</createdTime>
+<generatorID>4B7E3CE9-CFCC-0CF2-1C7B-4E7F037DAAFB</generatorID>
+<ownerDesignName>asd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DE73BA39-9251-BFD3-4AAB-8FB148FD8037"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B3FFAAAF-1151-D065-E2B5-7179F6DF0A9E" name="socios_tipo_de_socios_FK">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-20 15:06:57 UTC</createdTime>
+<generatorID>E6402EA9-4D4C-9155-5DC9-C5D07284FC74</generatorID>
+<ownerDesignName>asd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0B94DE3F-7831-DF64-847E-6BF5542B494F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

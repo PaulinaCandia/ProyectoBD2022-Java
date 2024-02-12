@@ -1,0 +1,129 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E657419F-D73B-0010-1D5C-1712AE6509A2" name="creditos solicitados">
+<createdBy>megav</createdBy>
+<createdTime>2022-06-22 14:12:12 UTC</createdTime>
+<ownerDesignName>asd</ownerDesignName>
+<engineerTo>
+<item key="37569E07-38FA-94AA-D2FB-6E60E55FD775" value="true"/>
+<item key="B0B9F2DA-289E-B181-965A-BBE7B50D3602" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id credito solicitado" id="2BCECDA9-02B0-38D4-A8F5-DABC0EEB73F3">
+<createdBy>usm</createdBy>
+<createdTime>2022-06-29 14:29:15 UTC</createdTime>
+<commentInRDBMS>numero identificador del credito solicitado</commentInRDBMS>
+<ownerDesignName>asd</ownerDesignName>
+<engineerTo>
+<item key="37569E07-38FA-94AA-D2FB-6E60E55FD775" value="true"/>
+<item key="B0B9F2DA-289E-B181-965A-BBE7B50D3602" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha solicitud" id="63037B51-6EB4-0EC4-2881-EA4311F7D4E9">
+<createdBy>usm</createdBy>
+<createdTime>2022-06-22 15:28:17 UTC</createdTime>
+<commentInRDBMS>fecha de la solicitud del credito,  [default = sysdate]</commentInRDBMS>
+<ownerDesignName>asd</ownerDesignName>
+<engineerTo>
+<item key="37569E07-38FA-94AA-D2FB-6E60E55FD775" value="true"/>
+<item key="B0B9F2DA-289E-B181-965A-BBE7B50D3602" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<defaultValue>SYSDATE</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cant cuotas" id="3A1BF266-949E-F35B-E594-D1D884FF58EB">
+<createdBy>usm</createdBy>
+<createdTime>2022-06-22 15:28:58 UTC</createdTime>
+<commentInRDBMS>la cantidad de cuotas</commentInRDBMS>
+<ownerDesignName>asd</ownerDesignName>
+<engineerTo>
+<item key="37569E07-38FA-94AA-D2FB-6E60E55FD775" value="true"/>
+<item key="B0B9F2DA-289E-B181-965A-BBE7B50D3602" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="monto solicitado" id="5605063A-A216-2E14-5103-813C4FCCF941">
+<createdBy>usm</createdBy>
+<createdTime>2022-06-22 15:29:49 UTC</createdTime>
+<commentInRDBMS>la cantidad del monto solicitado</commentInRDBMS>
+<ownerDesignName>asd</ownerDesignName>
+<engineerTo>
+<item key="37569E07-38FA-94AA-D2FB-6E60E55FD775" value="true"/>
+<item key="B0B9F2DA-289E-B181-965A-BBE7B50D3602" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id socio" id="B32ACC16-3B62-3D2E-A200-31AC1B3A56D6">
+<createdBy>usm</createdBy>
+<createdTime>2022-06-22 16:02:38 UTC</createdTime>
+<commentInRDBMS>socio posee un numero identificador que es el id (key)</commentInRDBMS>
+<generatorID>BAC94760-FB47-66AE-8F73-1B92E7935BE4</generatorID>
+<ownerDesignName>asd</ownerDesignName>
+<engineerTo>
+<item key="37569E07-38FA-94AA-D2FB-6E60E55FD775" value="true"/>
+<item key="B0B9F2DA-289E-B181-965A-BBE7B50D3602" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>9CCB9BEE-432A-52B0-CDC0-5753F53A2958</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id credito2" id="413D227B-6A05-53E5-8D2B-C395FBEB2492">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-20 15:13:30 UTC</createdTime>
+<generatorID>FBA9A3F8-1B46-2184-9C23-62849F03FA71</generatorID>
+<ownerDesignName>asd</ownerDesignName>
+<engineerTo>
+<item key="37569E07-38FA-94AA-D2FB-6E60E55FD775" value="true"/>
+<item key="B0B9F2DA-289E-B181-965A-BBE7B50D3602" value="true"/>
+</engineerTo>
+<referedAttribute>2D8A6807-B004-D75B-A4E1-E2B9A216BCE8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F13A0DE8-0986-FD11-602C-8F65B9DBBEC8" name="creditos_solicitados_PK">
+<createdBy>usm</createdBy>
+<createdTime>2022-06-22 16:23:39 UTC</createdTime>
+<ownerDesignName>asd</ownerDesignName>
+<engineerTo>
+<item key="37569E07-38FA-94AA-D2FB-6E60E55FD775" value="true"/>
+<item key="B0B9F2DA-289E-B181-965A-BBE7B50D3602" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2BCECDA9-02B0-38D4-A8F5-DABC0EEB73F3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

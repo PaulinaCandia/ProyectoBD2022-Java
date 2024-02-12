@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9DAA1A5C-C0BE-C6C9-3C5A-E24DA3005C91" name="residencias">
+<createdBy>Tino</createdBy>
+<createdTime>2022-07-15 01:24:55 UTC</createdTime>
+<ownerDesignName>coopera</ownerDesignName>
+<engineerTo>
+<item key="3FC1B1D9-F748-9D00-F663-F1024BBA4F20" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id residencia" id="487BD2D1-E8B5-2CA7-2CEC-43C740075A2E">
+<createdBy>Tino</createdBy>
+<createdTime>2022-07-15 01:24:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[identificador de la residencia]]></commentInRDBMS>
+<ownerDesignName>coopera</ownerDesignName>
+<importedID>353AAA08-20BC-FDB9-B3F4-858BFDD1A739</importedID>
+<engineerTo>
+<item key="3FC1B1D9-F748-9D00-F663-F1024BBA4F20" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ciudad" id="6572D484-E9E5-AA1E-30A6-A57CF4F5D748">
+<createdBy>Tino</createdBy>
+<createdTime>2022-07-15 01:24:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[ciudad en la que vive el socio]]></commentInRDBMS>
+<ownerDesignName>coopera</ownerDesignName>
+<importedID>D357AA7A-6ACC-38A5-6E48-06D9FD818B7E</importedID>
+<engineerTo>
+<item key="3FC1B1D9-F748-9D00-F663-F1024BBA4F20" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="region" id="D0F08B6F-6C31-9489-E2D2-6554E4B414AC">
+<createdBy>Tino</createdBy>
+<createdTime>2022-07-15 01:24:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[region en la que vive el socio]]></commentInRDBMS>
+<ownerDesignName>coopera</ownerDesignName>
+<importedID>0AAEAF2F-4532-A123-556B-37D2BEEC687C</importedID>
+<engineerTo>
+<item key="3FC1B1D9-F748-9D00-F663-F1024BBA4F20" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EDC929A5-E929-A047-1234-C1B52EE65B1C" name="residencias_PK">
+<createdBy>Tino</createdBy>
+<createdTime>2022-07-15 01:24:55 UTC</createdTime>
+<ownerDesignName>coopera</ownerDesignName>
+<engineerTo>
+<item key="3FC1B1D9-F748-9D00-F663-F1024BBA4F20" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>487BD2D1-E8B5-2CA7-2CEC-43C740075A2E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

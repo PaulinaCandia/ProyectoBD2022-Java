@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_14" directorySegmentName="seg_0" id="930A5645-D6EC-72EE-31AA-317ABB668A91">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-26 12:43:56 UTC</createdTime>
+<ownerDesignName>coopera</ownerDesignName>
+<engineerTo>
+<item key="3FC1B1D9-F748-9D00-F663-F1024BBA4F20" value="true"/>
+</engineerTo>
+<sourcePk>EB232BE6-A5C4-9D15-BD42-AA171BB6EA48</sourcePk>
+<targetPk>9D1EF5E6-705F-1893-8D46-82199472C930</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7AE081FB-1E3B-20B9-EB7A-17AA9BB11D5D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>CA2AF659-0EE6-2BD2-D52B-12C125E689EB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

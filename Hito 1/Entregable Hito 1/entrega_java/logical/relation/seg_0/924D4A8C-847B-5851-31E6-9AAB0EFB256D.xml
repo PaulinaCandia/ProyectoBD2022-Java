@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_3" directorySegmentName="seg_0" id="924D4A8C-847B-5851-31E6-9AAB0EFB256D">
+<createdBy>megav</createdBy>
+<createdTime>2022-06-22 14:17:10 UTC</createdTime>
+<ownerDesignName>entrega_java</ownerDesignName>
+<engineerTo>
+<item key="E8D0E68D-A113-098B-6740-4D34B80665D1" value="true"/>
+</engineerTo>
+<sourcePk>B604D964-8777-FD85-586B-AFB5E71C9ADF</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>es imprimido</nameOnSource>
+<nameOnTarget>imprime</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6563DE3C-59FB-95B3-4A18-8A41CC07DE87</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>17C12298-A8A6-22C7-DF5D-B2DC33D2B8D6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

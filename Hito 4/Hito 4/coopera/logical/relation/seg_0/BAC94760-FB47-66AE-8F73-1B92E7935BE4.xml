@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="creditos solicitados socios FK" directorySegmentName="seg_0" id="BAC94760-FB47-66AE-8F73-1B92E7935BE4">
+<createdBy>megav</createdBy>
+<createdTime>2022-06-22 14:17:18 UTC</createdTime>
+<ownerDesignName>coopera</ownerDesignName>
+<engineerTo>
+<item key="3FC1B1D9-F748-9D00-F663-F1024BBA4F20" value="true"/>
+</engineerTo>
+<sourcePk>B604D964-8777-FD85-586B-AFB5E71C9ADF</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>asignado</nameOnSource>
+<nameOnTarget>piden</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6563DE3C-59FB-95B3-4A18-8A41CC07DE87</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E657419F-D73B-0010-1D5C-1712AE6509A2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

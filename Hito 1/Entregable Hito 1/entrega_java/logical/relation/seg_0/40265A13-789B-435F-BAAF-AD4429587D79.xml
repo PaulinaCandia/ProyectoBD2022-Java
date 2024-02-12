@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_23" directorySegmentName="seg_0" id="40265A13-789B-435F-BAAF-AD4429587D79">
+<createdBy>usm</createdBy>
+<createdTime>2022-06-22 16:57:10 UTC</createdTime>
+<ownerDesignName>entrega_java</ownerDesignName>
+<engineerTo>
+<item key="E8D0E68D-A113-098B-6740-4D34B80665D1" value="true"/>
+</engineerTo>
+<targetPk>668FF618-8A5D-8FA8-4E9E-EF4C7A372AC7</targetPk>
+<dominantRole>CFD00F79-1992-D4A9-41D3-8446F8028758</dominantRole>
+<identifying>true</identifying>
+<nameOnSource>vence</nameOnSource>
+<nameOnTarget>multa</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>5095DB6F-1607-A32C-A10D-BB4FA0EDF0FE</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>CFD00F79-1992-D4A9-41D3-8446F8028758</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

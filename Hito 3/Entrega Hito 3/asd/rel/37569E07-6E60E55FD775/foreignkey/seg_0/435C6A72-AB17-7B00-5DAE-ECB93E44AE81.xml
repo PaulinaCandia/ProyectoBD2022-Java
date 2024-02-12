@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="435C6A72-AB17-7B00-5DAE-ECB93E44AE81" containerWithKeyObject="C34456A9-3045-D883-9CEA-33609AF314B6" localFKIndex="7CD39834-A560-79A7-F87F-192815600576" name="cuotas_boletas_FK">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-20 15:22:18 UTC</createdTime>
+<generatorID>12783672-BA54-5CA7-B41B-F07DC6904D10</generatorID>
+<ownerDesignName>asd</ownerDesignName>
+<referredTableLongName>boletas</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>13881B29-1A7E-58A7-2F16-05C55B538429</referredTableID>
+<keyObject>5747873C-649C-6053-ACE9-76EE6E44E551</keyObject>
+<referredKeyID>5747873C-649C-6053-ACE9-76EE6E44E551</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_boleta</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

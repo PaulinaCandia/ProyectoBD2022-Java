@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C38B3F87-21E4-CE97-6B22-97E0EBF80542" name="Categoria">
+<createdBy>Tino</createdBy>
+<createdTime>2022-06-29 15:56:30 UTC</createdTime>
+<ownerDesignName>java</ownerDesignName>
+<engineerTo>
+<item key="9DA46D56-0F36-39CB-AC86-5107C3B63B3F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id categoria" id="658A41BB-3771-C9B0-F453-5BB007C85702">
+<createdBy>Tino</createdBy>
+<createdTime>2022-06-29 15:58:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[numero identificador de la categoria]]></commentInRDBMS>
+<ownerDesignName>java</ownerDesignName>
+<engineerTo>
+<item key="9DA46D56-0F36-39CB-AC86-5107C3B63B3F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo cliente" id="58A6482E-4F53-9311-863B-387967775C2D">
+<createdBy>Tino</createdBy>
+<createdTime>2022-06-29 15:58:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[el cliente puede ser nuevo, vigente o moroso]]></commentInRDBMS>
+<ownerDesignName>java</ownerDesignName>
+<engineerTo>
+<item key="9DA46D56-0F36-39CB-AC86-5107C3B63B3F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="93B9D9DB-0973-8255-C661-F04A0DAD2F87" name="Categoria PK">
+<createdBy>Tino</createdBy>
+<createdTime>2022-06-29 15:58:10 UTC</createdTime>
+<ownerDesignName>java</ownerDesignName>
+<engineerTo>
+<item key="9DA46D56-0F36-39CB-AC86-5107C3B63B3F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>658A41BB-3771-C9B0-F453-5BB007C85702</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

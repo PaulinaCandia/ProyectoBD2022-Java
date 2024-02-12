@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DD3BB013-07CC-B74C-E94F-56413709B2E9" name="aportes">
+<createdBy>megav</createdBy>
+<createdTime>2022-06-22 14:15:36 UTC</createdTime>
+<ownerDesignName>java</ownerDesignName>
+<engineerTo>
+<item key="9DA46D56-0F36-39CB-AC86-5107C3B63B3F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id aporte" id="7AD105F6-DADA-839D-736E-AF88CB636352">
+<createdBy>megav</createdBy>
+<createdTime>2022-06-22 14:40:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[numero identificador del aporte]]></commentInRDBMS>
+<ownerDesignName>java</ownerDesignName>
+<engineerTo>
+<item key="9DA46D56-0F36-39CB-AC86-5107C3B63B3F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="59F055EC-D3D2-0845-0BD6-C3004E34C9AC">
+<createdBy>megav</createdBy>
+<createdTime>2022-06-22 14:40:13 UTC</createdTime>
+<commentInRDBMS><![CDATA[nombre del aporte]]></commentInRDBMS>
+<ownerDesignName>java</ownerDesignName>
+<engineerTo>
+<item key="9DA46D56-0F36-39CB-AC86-5107C3B63B3F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion" id="5672DD0E-AF0C-FE7C-8644-2D9DE42B3B1D">
+<createdBy>megav</createdBy>
+<createdTime>2022-06-22 14:40:22 UTC</createdTime>
+<commentInRDBMS><![CDATA[descripcion del aporte]]></commentInRDBMS>
+<ownerDesignName>java</ownerDesignName>
+<engineerTo>
+<item key="9DA46D56-0F36-39CB-AC86-5107C3B63B3F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tasa interes" id="8DFE7A9A-0D72-9F3A-548F-172370963CCA">
+<createdBy>megav</createdBy>
+<createdTime>2022-06-22 14:40:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[porcentaje de la tasa de interes]]></commentInRDBMS>
+<ownerDesignName>java</ownerDesignName>
+<engineerTo>
+<item key="9DA46D56-0F36-39CB-AC86-5107C3B63B3F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rescate max" id="9F5FAB62-F28D-FC76-BD3B-C4B63AF5D211">
+<createdBy>megav</createdBy>
+<createdTime>2022-06-22 14:40:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[porcentaje del rescate maximo]]></commentInRDBMS>
+<ownerDesignName>java</ownerDesignName>
+<engineerTo>
+<item key="9DA46D56-0F36-39CB-AC86-5107C3B63B3F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="98F5DCCA-CF2B-C4CF-A318-92CBCCE25921" name="aportes PK">
+<createdBy>usm</createdBy>
+<createdTime>2022-06-22 15:23:24 UTC</createdTime>
+<ownerDesignName>java</ownerDesignName>
+<engineerTo>
+<item key="9DA46D56-0F36-39CB-AC86-5107C3B63B3F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7AD105F6-DADA-839D-736E-AF88CB636352</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

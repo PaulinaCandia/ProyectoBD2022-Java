@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2F7E008F-306F-9C57-DBC7-013CB7196D3A" containerWithKeyObject="1F243301-7F97-844E-A74F-7EEEDCE1FD69" localFKIndex="957EC97D-34D7-D78A-18CF-4E00E74C88F4" name="socios_Categorias_FK">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-26 12:46:47 UTC</createdTime>
+<generatorID>4B7E3CE9-CFCC-0CF2-1C7B-4E7F037DAAFB</generatorID>
+<ownerDesignName>coopera</ownerDesignName>
+<referredTableLongName>Categorias</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>659314B7-471F-D46E-D4BD-ED4FC86BD827</referredTableID>
+<keyObject>09D6F73D-DBBE-EFF1-E035-FEE11CF8E154</keyObject>
+<referredKeyID>09D6F73D-DBBE-EFF1-E035-FEE11CF8E154</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_categoria</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

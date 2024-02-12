@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8796F0BE-FD74-3FD1-70EF-0002D4DDD8AD" containerWithKeyObject="1F243301-7F97-844E-A74F-7EEEDCE1FD69" localFKIndex="FCA98124-9438-5230-9D2B-FC7228B0FC99" name="socios_tipo_de_socios_FK">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-26 12:46:47 UTC</createdTime>
+<generatorID>E6402EA9-4D4C-9155-5DC9-C5D07284FC74</generatorID>
+<ownerDesignName>coopera</ownerDesignName>
+<referredTableLongName>tipo_de_socios</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C3C0976F-359B-D99C-D3F2-EE82D8BC37AF</referredTableID>
+<keyObject>A65B3A01-B0F1-045C-6B4B-3DAD16D683A4</keyObject>
+<referredKeyID>A65B3A01-B0F1-045C-6B4B-3DAD16D683A4</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_tipo</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

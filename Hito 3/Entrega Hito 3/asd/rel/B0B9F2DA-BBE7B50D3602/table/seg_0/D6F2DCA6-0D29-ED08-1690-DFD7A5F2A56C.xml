@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D6F2DCA6-0D29-ED08-1690-DFD7A5F2A56C" name="creditos_solicitados">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-20 15:06:57 UTC</createdTime>
+<generatorID>E657419F-D73B-0010-1D5C-1712AE6509A2</generatorID>
+<ownerDesignName>asd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_credito_solicitado" id="97A9CEE9-8A16-6663-6DEC-D56DA1E24504">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-20 15:06:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[numero identificador del credito solicitado]]></commentInRDBMS>
+<generatorID>2BCECDA9-02B0-38D4-A8F5-DABC0EEB73F3</generatorID>
+<ownerDesignName>asd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_solicitud" id="AF027277-88DB-389E-8AFA-BAEA69C71D24">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-20 15:06:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[fecha de la solicitud del credito,  [default = sysdate]]]></commentInRDBMS>
+<generatorID>63037B51-6EB4-0EC4-2881-EA4311F7D4E9</generatorID>
+<ownerDesignName>asd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<defaultValue>SYSDATE</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cant_cuotas" id="3EBF1A79-4D96-A76E-29C4-0FDEC8417CCE">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-20 15:06:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[la cantidad de cuotas]]></commentInRDBMS>
+<generatorID>3A1BF266-949E-F35B-E594-D1D884FF58EB</generatorID>
+<ownerDesignName>asd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="monto_solicitado" id="D88C7438-5740-2B8D-83B9-C174498F496F">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-20 15:06:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[la cantidad del monto solicitado]]></commentInRDBMS>
+<generatorID>5605063A-A216-2E14-5103-813C4FCCF941</generatorID>
+<ownerDesignName>asd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_socio" id="7814AA77-3A6E-03E7-ECC5-4DB7FFD73BED">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-20 15:06:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[socio posee un numero identificador que es el id (key)]]></commentInRDBMS>
+<generatorID>B32ACC16-3B62-3D2E-A200-31AC1B3A56D6</generatorID>
+<ownerDesignName>asd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E0486714-1ABA-D3FC-2856-062FCEAF7414" referredColumn="5F8F5E16-1C8E-D2DE-6851-D8349096DDAA"/>
+</associations>
+</Column>
+<Column name="id_credito" id="75987E7D-6913-F872-1029-A1524B77A012">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-20 15:08:20 UTC</createdTime>
+<ownerDesignName>asd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3A33420F-DF06-471F-1891-F1E3974EDE2E" referredColumn="8CDD1561-BBA2-34FA-1B3D-363354EDF9B7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="99413A4E-91A3-CE4A-9941-259B2C5865CA" name="creditos_solicitados_PK">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-20 15:06:57 UTC</createdTime>
+<generatorID>F13A0DE8-0986-FD11-602C-8F65B9DBBEC8</generatorID>
+<ownerDesignName>asd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="97A9CEE9-8A16-6663-6DEC-D56DA1E24504"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="27944D04-B00A-050D-BAF0-1636742553A4" name="creditos_solicitados_socios_FK">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-20 15:06:57 UTC</createdTime>
+<generatorID>BAC94760-FB47-66AE-8F73-1B92E7935BE4</generatorID>
+<ownerDesignName>asd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7814AA77-3A6E-03E7-ECC5-4DB7FFD73BED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B30E3A90-6B3A-4378-B55B-293723D7CDBD" name="creditos_solicitados_creditos_FK">
+<createdBy>malex</createdBy>
+<createdTime>2022-07-20 15:08:20 UTC</createdTime>
+<generatorID>1E76E309-E1B3-BAE4-CFD0-B03588A24F0B</generatorID>
+<ownerDesignName>asd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="75987E7D-6913-F872-1029-A1524B77A012"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
